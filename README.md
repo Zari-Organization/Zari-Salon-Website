@@ -1,2 +1,2 @@
 # Zari-Salon-Website
-#Front-end part
+### Front-end part
