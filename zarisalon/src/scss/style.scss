@@ -1,0 +1,133 @@
+@import "./variables.scss";
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+    overflow: hidden;
+}
+
+.black-title {
+    margin-bottom: 25px;
+    /* padding-right: 20px; */
+    font-size: 44px;
+    font-family: "Domine", serif;  
+    line-height: 60px; 
+}
+
+
+.small-title{
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 16px;
+        color: #333;
+        display: inline-block;
+        font-family: "Montserrat", sans-serif;
+        text-transform: capitalize;
+}
+#owl-carousel-testimonials .item img {
+    width: auto !important;
+}
+#ready{
+    text-align: center;
+    z-index: 99999;
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $main-color;
+    background-color: #000;
+}
+
+#topBtn{
+    cursor: pointer;
+    z-index: 99999;
+    display: none;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+a:focus{
+    box-shadow: none !important;
+}
+
+i, img{
+    cursor: pointer;
+}
+
+.main-color{
+    color: $main-color;
+}
+.main-bg{
+    background-color: $main-color;
+}
+
+
+.main-btn{
+    background-color: $main-color;
+    color: #fff;
+    border: 1px solid $main-color;
+}
+.main-btn:hover{
+    background-color: transparent;
+    color: $main-color;
+}
+.second-btn{
+    background-color: transparent;
+    color: $main-color;
+    border: 1px solid $main-color;
+}
+.second-btn:hover{
+    background-color: $main-color;
+    color: #fff;
+}
+
+
+.page-header{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../assets/aboutus/detail-main-bg.jpg");
+    height: 350px;
+    padding-top: 150px;
+    text-align: center;
+    margin-bottom: 120px;
+  }
+  
+  
+  /* bread crumbs ============== */
+  .bread-crumbs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul.bread-crumbs{
+    padding: 0;
+    margin: 0;
+  }
+  ul.bread-crumbs li{
+    list-style: none;
+  }
+  .bread-crumbs li {
+    margin: 0 13px;
+    font-size: 16px;
+    line-height: 170%;
+    color:  $main-color;
+    position: relative;
+  }
+  
+  .bread-crumbs li a:after {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    right: -15px;
+    content: "-";
+    color: #666;
+  }
+  .bread-crumbs li a {
+    color: #666;
+  }
+/*  end of bread crumbs===============*/
