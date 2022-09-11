@@ -50,10 +50,10 @@ const routes = [
     component: () =>
       import("../views/ContactView.vue"),
   },
-  {
-    path: '/:pathMatch(.*)*', component: () =>
-    import("../views/OopsView.vue"),
-  },
+  // {
+  //   path: '/:pathMatch(.*)*', component: () =>
+  //   import("../views/OopsView.vue"),
+  // },
 
 ];
 

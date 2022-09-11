@@ -36,7 +36,11 @@ export default {
 </script>
 
 <style lang="scss">
+    @import '../scss/_variables';
+    @import '../scss/style.scss';
+    
     .promo-video{
+        margin-bottom: 120px;
 
     }
     .bg-text {

@@ -1,29 +1,42 @@
 <template>
   <div class="about">
-   
-<section class="page-header">
-  <h1>About</h1>
-  <ul class="bread-crumbs">
-      <li class="bread-crumbs__item">
-          <a class="bread-crumbs__link" href="/">Home</a>
-      </li>
-      <li class="bread-crumbs__item fw-bold">About</li>
-  </ul>
-
-</section>
+    <section class="page-header">
+      <h1>About</h1>
+      <ul class="bread-crumbs">
+        <li class="bread-crumbs__item">
+          <router-link to="/" class="bread-crumbs__link">Home</router-link>
+        </li>
+        <li class="bread-crumbs__item fw-bold">About</li>
+      </ul>
+    </section>
 
 <promo-video />
+<WhyusSection />
+<PricingSection />
+<CounterSection />
+<SubscribeSection />
+<FooterSection />
 
 
-  </div>
+</div>
 </template>
 
 <script>
   import promoVideo from '@/components/promoVideo';
+import FooterSection from '@/components/FooterSection.vue';
+import WhyusSection from '@/components/WhyusSection.vue';
+import CounterSection from '../components/CounterSection.vue';
+import SubscribeSection from '@/components/SubscribeSection.vue';
+import PricingSection from '@/components/PricingSection.vue';
 
 export default {
   components:{
-    promoVideo, 
+    promoVideo,
+    FooterSection,
+    WhyusSection,
+    CounterSection,
+    SubscribeSection,
+    PricingSection
 }
 }
 </script>

@@ -46,25 +46,26 @@
                           <li class="nav-item">
                             <router-link class="nav-link" to="/contact">Contact Us</router-link>
                           </li>
-<div class="right-nav-part">
+                          <div class="right-nav-part">
     
-    <li class="nav-item">
-        <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'search']" /></i></a></router-link>
-    </li>
-    
-    <li class="nav-item">
-        <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'heart']" /></i></a></router-link>
-      </li>
-      
-      <li class="nav-item">
-        <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'cart-shopping']" /></i></a></router-link>
-      </li>
-      
-      <li class="nav-item">
-        <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'user']" /></i></a></router-link>
-      </li>
+                            <li class="nav-item">
+                                <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'search']" /></i></a></router-link>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'heart']" /></i></a></router-link>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'cart-shopping']" /></i></a></router-link>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'user']" /></i></a></router-link>
+                              </li>
+                        
+                        </div>
 
-</div>
 
                     </ul>
                     <!-- <div class="custome d-flex justify-content-evenly align-items-center pb-4 pb-lg-0"> -->

@@ -116,9 +116,17 @@
   <!-- end of header section-------------------------- -->
   <AboutSection />
   <ServicesSection />
-  
+  <BranchesSection />
+  <GallerySection />
 
-           
+  <ShopSection />
+  <WhyusSection />
+  <CounterSection />
+
+  <SubscribeSection />
+
+  <FooterSection />
+
 
 
 
@@ -129,17 +137,30 @@
 </template>
 
 <script>
-  import 'vue-owl-carousel';
-import AboutSection from '@/components/AboutSection.vue';
+import AboutSection from '@/components/AboutSection';
+import BranchesSection from '@/components/BranchesSection';
+import GallerySection from '@/components/GallerySection.vue';
+import ShopSection from '@/components/ShopSection.vue';
+import WhyusSection from '@/components/WhyusSection.vue';
 import ServicesSection from '@/components/ServicesSection.vue';
+import FooterSection from '@/components/FooterSection.vue';
+import SubscribeSection from '@/components/SubscribeSection.vue';
+import CounterSection from '@/components/CounterSection.vue';
 // @ is an alias to /src
 // import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   name: "HomeView",
   components: {
+    ServicesSection,
     AboutSection,
-    ServicesSection
+    BranchesSection,
+    GallerySection,
+    ShopSection,
+    WhyusSection,
+    FooterSection,
+    SubscribeSection,
+    CounterSection
 },
 };
 </script>

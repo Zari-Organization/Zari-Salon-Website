@@ -22,6 +22,7 @@
     "vue-owl-carousel": "^2.0.3",
     "vue-router": "^4.0.3",
     "vue-slick-carousel": "^1.0.6",
+    "vue-wow": "^1.2.0",
     "vuex": "^4.0.0"
   },
   "devDependencies": {
