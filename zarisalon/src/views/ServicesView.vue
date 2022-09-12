@@ -78,12 +78,61 @@
                     </div>
         
             </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xm-6 ">
+                <div class="service-box text-center">
+                <div class="service-images m-b15">
+                    <img src="../assets/services/pic1.jpg" alt="" />
+                    <i><fa :icon="['fas', 'spray-can-sparkles']" /></i>                
+                 </div>
+                <div class="service-content">
+                    <h6 class="text-uppercase"><a href="services-details.html" class="text-primary">Cosmetics</a></h6>
+                </div>
+            </div>
+        </div> <!--end of item-->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xm-6 ">
+                <div class="service-box text-center">
+                    <div class="service-images m-b15">
+                        <img src="../assets/services/pic2.jpg" alt="" />
+                        <i><fa :icon="['fas', 'person-dress']" /></i>                
+                    </div>
+                    <div class="service-content">
+                        <h6 class="text-uppercase"><a href="services-details.html" class="text-primary">Hairdressing</a></h6>
+                    </div>
+
+            </div>
+        </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xm-6">
+                <div class="service-box text-center">
+                    <div class="service-images m-b15">
+                        <img src="../assets/services/pic3.jpg" alt="" />
+                        <i><fa :icon="['fas', 'fan']" /></i>                
+                    </div>
+                    <div class="service-content">
+                        <h6 class="text-uppercase"><a href="services-details.html" class="text-primary">Body Treatments</a></h6>
+                    </div>
+
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xm-6 ">
+            <div class="service-box text-center">
+                <div class="service-images m-b15">
+                    <img src="../assets/services/pic4.jpg" alt="" />
+                    <i><fa :icon="['fab', 'canadian-maple-leaf']" /></i>                
+                </div>
+                <div class="service-content">
+                    <h6 class="text-uppercase"><a href="services-details.html" class="text-primary">Massages</a></h6>
+                </div>
+            </div>
+
+    </div>
             
 
 
                 </div>
             </div>
         </section>
+        <TeamSection />
         <PromoVideo />
         <SubscribeSection />
         <FooterSection />
@@ -97,13 +146,15 @@
     import SubscribeSection from '@/components/SubscribeSection.vue';
     import FooterSection from '@/components/FooterSection.vue';
 import PromoVideo from '@/components/promoVideo.vue';
+import TeamSection from '@/components/TeamSection.vue';
 
     
 export default {
   components:{
     SubscribeSection,
     FooterSection,
-    PromoVideo
+    PromoVideo,
+    TeamSection
 }}
 
 </script>

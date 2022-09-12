@@ -13,6 +13,8 @@
 <promo-video />
 <WhyusSection />
 <PricingSection />
+<TestimonialsSection />
+<TeamSection />
 <CounterSection />
 <SubscribeSection />
 <FooterSection />
@@ -28,6 +30,9 @@ import WhyusSection from '@/components/WhyusSection.vue';
 import CounterSection from '../components/CounterSection.vue';
 import SubscribeSection from '@/components/SubscribeSection.vue';
 import PricingSection from '@/components/PricingSection.vue';
+import TeamSection from '@/components/TeamSection.vue';
+import TestimonialsSection from '@/components/TestimonialsSection.vue';
+
 
 export default {
   components:{
@@ -36,7 +41,9 @@ export default {
     WhyusSection,
     CounterSection,
     SubscribeSection,
-    PricingSection
+    PricingSection,
+    TeamSection,
+    TestimonialsSection
 }
 }
 </script>

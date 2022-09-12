@@ -44,6 +44,29 @@ const routes = [
     component: () =>
       import("../views/BookingView.vue"),
   },
+
+  {
+    path: "/profile",
+    name: "LoginView",
+    component: () =>
+      import("../views/LoginView.vue"),
+  },
+
+  {
+    path: "/cart",
+    name: "CartView",
+    component: () =>
+      import("../views/CartView.vue"),
+  },
+  {
+    path: "/wishlist",
+    name: "WishlistView",
+    component: () =>
+      import("../views/WishlistView.vue"),
+  },
+
+
+
   {
     path: "/contact",
     name: "ContactView",

@@ -121,9 +121,11 @@
 
   <ShopSection />
   <WhyusSection />
+  <TeamSection />
   <CounterSection />
-
+  <TestimonialsSection />
   <SubscribeSection />
+  
 
   <FooterSection />
 
@@ -146,6 +148,8 @@ import ServicesSection from '@/components/ServicesSection.vue';
 import FooterSection from '@/components/FooterSection.vue';
 import SubscribeSection from '@/components/SubscribeSection.vue';
 import CounterSection from '@/components/CounterSection.vue';
+import TeamSection from '@/components/TeamSection.vue';
+import TestimonialsSection from '@/components/TestimonialsSection.vue';
 // @ is an alias to /src
 // import HelloWorld from "@/components/HelloWorld.vue";
 
@@ -160,7 +164,9 @@ export default {
     WhyusSection,
     FooterSection,
     SubscribeSection,
-    CounterSection
+    CounterSection,
+    TeamSection,
+    TestimonialsSection
 },
 };
 </script>

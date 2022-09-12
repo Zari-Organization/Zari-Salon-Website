@@ -18,6 +18,7 @@
     "core-js": "^3.8.3",
     "jquery": "^3.6.1",
     "popper.js": "^1.16.1",
+    "swiper": "^8.3.2",
     "vue": "^3.2.13",
     "vue-owl-carousel": "^2.0.3",
     "vue-router": "^4.0.3",

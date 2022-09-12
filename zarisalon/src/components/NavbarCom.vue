@@ -48,20 +48,29 @@
                           </li>
                           <div class="right-nav-part">
     
-                            <li class="nav-item">
-                                <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'search']" /></i></a></router-link>
-                            </li>
+                            <!-- <li class="nav-item"> -->
+                                <!-- <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'search']" /></i></a></router-link> -->
+                            <!-- </li> -->
+                            <!-- <div class="input-group">
+                                <div class="form-outline">
+                                  <input type="search" id="form1" class="form-control" />
+                                  <label class="form-label" for="form1">Search</label>
+                                </div>
+                                <button type="button" class="btn btn-primary">
+                                    <i><fa :icon="['fas', 'search']" /></i>
+                                                                </button>
+                              </div> -->
                             
                             <li class="nav-item">
                                 <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'heart']" /></i></a></router-link>
                               </li>
                               
                               <li class="nav-item">
-                                <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'cart-shopping']" /></i></a></router-link>
+                                <router-link class="nav-link" to="/cart"><a><i><fa :icon="['fas', 'cart-shopping']" /></i></a></router-link>
                               </li>
                               
                               <li class="nav-item">
-                                <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'user']" /></i></a></router-link>
+                                <router-link class="nav-link" to="/profile"><a><i><fa :icon="['fas', 'user']" /></i></a></router-link>
                               </li>
                         
                         </div>
@@ -145,12 +154,6 @@ $('.navbar .navbar-toggler').click(()=>{
 
 
 
-// $( '.navbar-nav li' ).on( 'click', function () {
-// 	$( '.navbar-nav' ).find( 'li a.active' ).removeClass( 'active' );
-// 	$( this ).parent( 'li a' ).addClass( 'active' );
-// });
-
-
 
 // change flag for currency when click 
 
@@ -180,13 +183,13 @@ $( '.navbar-nav li' ).on( 'click', function () {
 	$( this ).parent( 'li' ).addClass( 'active' );
 });
 
-// $('.navbar-nav .nav-item a').click(function(){
-//     $(this).addClass('active');
-//     $(this).parent().siblings().children().removeClass('active');
-//     let currentSection = $(this).attr('href');
-//     let currentOffset = $(currentSection).offset().top;
-//     $('html , body').animate({scrollTop : currentOffset}, 500);
-// })
+$('.navbar-nav .nav-item').click(function(){
+    $(this).addClass('active');
+    $(this).parent().siblings().children().removeClass('active');
+    let currentSection = $(this).attr('to');
+    let currentOffset = $(currentSection).offset().top;
+    $('html , body').animate({scrollTop : currentOffset}, 500);
+})
 
 
 // change indicators buttons style
