@@ -134,6 +134,7 @@
         </section>
         <TeamSection />
         <PromoVideo />
+        <TestimonialsSection />
         <SubscribeSection />
         <FooterSection />
 
@@ -147,6 +148,7 @@
     import FooterSection from '@/components/FooterSection.vue';
 import PromoVideo from '@/components/promoVideo.vue';
 import TeamSection from '@/components/TeamSection.vue';
+import TestimonialsSection from '@/components/TestimonialsSection.vue';
 
     
 export default {
@@ -154,7 +156,8 @@ export default {
     SubscribeSection,
     FooterSection,
     PromoVideo,
-    TeamSection
+    TeamSection,
+    TestimonialsSection
 }}
 
 </script>

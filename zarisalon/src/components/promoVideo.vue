@@ -7,10 +7,11 @@
             <div class="col-md-6">
                 <div class="about-page-content wow fadeInLeft delay-0-2s animated" style="visibility: visible; animation-name: fadeInLeft;">
                     <div class="section-title mb-30">
-                        <div><span class="bg-text">about</span>
-                        </div>
+                        <!-- <div><span class="bg-text">about</span>
+                        </div> -->
                         <span class="small-title">Who We Are</span>
-                        <h2 class="black-title">Quality &amp; Natural Beauty Salon</h2>
+                        <h2 class="black-title text-primary">Quality &amp; Natural Beauty Salon</h2>
+                        <p>In this video, our staff members tell about their work at Solari, how they achieve the best results for their clients every day and more. Click the Play button below to watch this presentation.</p>
                     </div>
                 </div>
             </div>

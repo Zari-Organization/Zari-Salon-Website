@@ -3,7 +3,7 @@
         <div class="section-full content-inner bg-blue-light pricing">
 			<div class="container">
 				<div class="section-head text-black text-center">
-					<h1 class="text-primary mb-5 mt-5">Our Pricing</h1>
+					<h1 class="text-primary">Our Pricing</h1>
 					<div class="dlab-separator-outer m-b0">
 						<div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
 					</div>
@@ -107,6 +107,7 @@
     }
 
     .price-tbl{
+		border-radius: 10px;
         padding:20px 20px;
         background:rgba(255,255,255,.95);
         margin-bottom:30px;

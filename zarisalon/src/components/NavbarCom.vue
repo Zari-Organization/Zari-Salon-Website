@@ -372,6 +372,7 @@ $('#emailSubscribe').on('input' , function(){
         align-items: center;
         margin-right: -10%;
         margin: auto;
+        padding-left: 10%;
     }
 
     .custome div{
