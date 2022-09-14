@@ -3,7 +3,7 @@
         <div class="section-full content-inner bg-blue-light pricing">
 			<div class="container">
 				<div class="section-head text-black text-center">
-					<h1 class="text-primary">Our Pricing</h1>
+					<h1 class="text-primary mb-5">Price & Plans</h1>
 					<div class="dlab-separator-outer m-b0">
 						<div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
 					</div>

@@ -11,8 +11,7 @@
                         <div class="logo-footer">
                             <img src="../assets/footer/zarilogoblack.png" alt="logo zari" />
 
-                            <p>Everything you need to increase customer Salon will be available now within one
-                                application.</p>
+                            <p>We offer a full range of hairdressing services for men and women, eyebrow and eyelash care, the services of make-up artists and stylists. Entrust your beauty to professionals who really care about...</p>
                             <h4 class="mb-4">Follow us </h4>
                             <div class="icons-footer d-flex align-items-center">
                                 <a target="_blank" href="https://www.facebook.com/ZARISolutionksa"><i><fa :icon="['fab','facebook-f']" /></i></a>
@@ -104,42 +103,7 @@
     .logo-footer img{
         width: 120px;
     }
-    .icons-footer a{
-        width: 35px;
-        height: 35px;
-        background-color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 15px;
-        font-size: 18px;
-        border-radius: 50%;
-        box-shadow: 0px 4px 6px rgba(147, 147, 147, 0.6);
-    
-    }
-    .icons-footer a .fa-facebook-f{
-        color: #006eff;
-    }
-    .icons-footer a .fa-twitter{
-        color: #1da1f2;
-    }
-    .icons-footer a .fa-instagram{
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-        background: #f09433;
-        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-        background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
-    }
-    .icons-footer a .fa-linkedin-in{
-        color: #0077b5;
-    }
+ 
     .links-navigate a{
         color: #222222;
         font-weight: 500;
