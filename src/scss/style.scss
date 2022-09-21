@@ -186,3 +186,42 @@ i, img{
 .second-btn, .main-btn{
     border-radius: 50px !important;
 }
+
+
+// galary section ============================================
+   
+.gallery{
+    margin-bottom: 120px;
+
+}
+.gallery .img-gallery{
+    background: #FFFFFF !important;
+    border: 1px solid rgba(153, 153, 153, 0.15);
+    box-shadow:0px 0px 8px rgba(153, 153, 153, 0.15);
+    border-radius: 8px;
+    height: 260px;
+    overflow: hidden;
+}
+.gallery .img-gallery img{
+    width: 100%;
+    transition: all 0.5s;
+}
+.gallery .img-gallery:hover img{
+    transform: scale(1.15,1.15);
+}
+.gallery h4{
+    text-transform: capitalize;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.gallery:hover.gallery h4{
+    color: var(--mainColor) !important;
+}
+
+/*Responsive sample section */
+
+@media screen and (max-width: 992px){
+    .gallery .img-gallery img{
+        width: 250px;
+    }
+}

@@ -292,7 +292,7 @@
 
 
                                             <div class="card-header" id="check_payments2">
-                                                <h5 class="title" data-bs-toggle="collapse" data-bs-target="#itemTwo" aria-controls="itemTwo" aria-expanded="false">DIRECT BANK TRANSFER</h5>
+                                                <h5 class="title" data-bs-toggle="collapse" data-bs-target="#itemOne" aria-controls="itemOne" aria-expanded="false">DIRECT BANK TRANSFER</h5>
                                             </div>
 
 
@@ -341,13 +341,14 @@
                            
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="width: 15px; height: 15px;">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="width: 15px; height: 15px;" />
                                             <label class="form-check-label" for="flexCheckDefault">
                                                 I have read and agree to the website terms and conditions
                                             </label>
                                           </div>
                                     </div>
-                                    <a class="btn main-btn py-2 px-4 me-3 mt-5 " style="width: 100%">Place order</a>
+                                    <!-- <a class="btn main-btn py-2 px-4 me-3 mt-5 " style="width: 100%">Place order</a> -->
+                                    <a class="btn main-btn py-2 px-4 me-3 mt-5 " style="width: 100%"  data-bs-toggle="modal" data-bs-target="#action-CartAddModal">Pay Now</a>
                                 </div>
                             </div>
                         </div>
@@ -356,6 +357,33 @@
                 </div>
             </div>
         </section>
+
+
+        
+        <!--== Start Product Quick Add Cart Modal ==-->
+        <aside class="product-action-modal modal fade" id="action-CartAddModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="product-action-view-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal">
+                                <i><fa :icon="['fas', 'times']" /></i>
+                            </button>
+                            <div class="modal-action-messages">
+                                <i class="fa fa-check-square-o"></i> Payment done successfully
+                            </div>
+                            <!-- <div class="modal-action-product">
+                                <div class="thumb">
+                                    <img src="../assets/shop/product2.webp" alt="Organic Food Juice" />
+                                </div>
+                                <h4 class="product-name"><a   >product name</a></h4>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!--== End Product Quick Add Cart Modal ==-->
 
 
         <SubscribeSection />
@@ -384,6 +412,90 @@ export default {
         
   @import '../scss/_variables.scss';
   @import '../scss/style.scss';
+
+//modal==========================================
+
+.product-action-modal .modal-content {
+    border-radius: 0 0 5px 5px;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+.modal-dialog {
+    max-width: 500px !important;
+    margin: 1.75rem auto;
+}
+.product-action-modal .product-action-view-content .btn-close {
+    background-image: none;
+    box-shadow: none;
+    border-radius: 5px 5px 0 0;
+    font-size: 18px;
+    width: 100%;
+    height: 32px;
+    line-height: 18px;
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    background-color: $main-color;
+    color: #fff;
+    opacity: 1;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.product-action-modal .product-action-view-content .modal-action-messages {
+    font-size: 15px;
+    line-height: 1;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.product-action-modal .product-action-view-content .modal-action-messages i {
+    position: relative;
+    top: 0;
+    margin-right: 5px;
+}
+
+.product-action-modal .product-action-view-content .modal-action-product .thumb{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+.product-action-modal .product-action-view-content .modal-action-product .thumb img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    transition: 0.3s;
+}
+.thumb img:hover{
+    transform: scale(1.1, 1.1);
+}
+.product-action-modal .product-action-view-content .modal-action-product .product-name {
+    margin: 18px 0 2px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
 
 
   .second-btn, .main-btn{

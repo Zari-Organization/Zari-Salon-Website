@@ -99,6 +99,7 @@
         font-size: 14px;
         font-weight: 500;
         margin: 1.25rem 0;
+        line-height: 1.4rem;
     }
     .logo-footer img{
         width: 120px;

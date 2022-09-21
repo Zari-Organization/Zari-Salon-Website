@@ -54,6 +54,10 @@
 </template>
 
 <style lang="scss" scoped>
+    @import '../scss/_variables.scss';
+    @import '../scss/style.scss';
+
+    
     .contact-left-img{
         background-repeat: no-repeat;
         background-position: center;
@@ -167,7 +171,7 @@
         }
     }
     .contact-info-item a:hover{
-        color:#ff6565
+        color: $main-color;
     }
     .contact-info-item p{
         max-width:190px;

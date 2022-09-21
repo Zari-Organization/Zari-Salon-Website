@@ -120,6 +120,10 @@
 
 
 <style lang="scss">
+
+  @import '../scss/_variables.scss';
+  @import '../scss/style.scss';
+  
     .appointment-area{
         background-repeat: no-repeat;
         background-position: center;

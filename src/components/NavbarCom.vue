@@ -158,26 +158,26 @@ import $ from "jquery";
 $(document).ready(function(){
 
 
- // Offcanvas Nav Js
- var $offcanvasNav = $("#offcanvasNav a");
-    $offcanvasNav.on("click", function () {
-      var link = $(this);
-      var closestUl = link.closest("ul");
-      var activeLinks = closestUl.find(".active");
-      var closestLi = link.closest("li");
-      var linkStatus = closestLi.hasClass("active");
-      var count = 0;
+//  // Offcanvas Nav Js
+//  var $offcanvasNav = $("#offcanvasNav a");
+//     $offcanvasNav.on("click", function () {
+//       var link = $(this);
+//       var closestUl = link.closest("ul");
+//       var activeLinks = closestUl.find(".active");
+//       var closestLi = link.closest("li");
+//       var linkStatus = closestLi.hasClass("active");
+//       var count = 0;
 
-      closestUl.find("ul").slideUp(function () {
-        if (++count == closestUl.find("ul").length)
-          activeLinks.removeClass("active");
-      });
+//       closestUl.find("ul").slideUp(function () {
+//         if (++count == closestUl.find("ul").length)
+//           activeLinks.removeClass("active");
+//       });
 
-      if (!linkStatus) {
-        closestLi.children("ul").slideDown();
-        closestLi.addClass("active");
-      }
-    });
+//       if (!linkStatus) {
+//         closestLi.children("ul").slideDown();
+//         closestLi.addClass("active");
+//       }
+//     });
 
 
 
@@ -263,38 +263,40 @@ $('#indicators button').click(function(){
     $(this).siblings().removeClass('change');
 })
 
+//=======================================================================
+// // counter section
 
-// counter section
+// let counters = document.querySelectorAll('.counter');
+// let section = document.querySelector('.numbers')
 
-let counters = document.querySelectorAll('.counter');
-let section = document.querySelector('.numbers')
+// function startCount(ele){
+//     let target = +ele.getAttribute('data-target');
+//     let count = setInterval(() =>{
+//         ele.textContent++;
+//         if(ele.textContent == target){
+//             clearInterval(count)
+//         }
+//     }, 3000/target)
+// }
 
-function startCount(ele){
-    let target = +ele.getAttribute('data-target');
-    let count = setInterval(() =>{
-        ele.textContent++;
-        if(ele.textContent == target){
-            clearInterval(count)
-        }
-    }, 3000/target)
-}
+// // to start count
+// let numbersOffset = $('#numbers').offset().top - 500;
 
-// to start count
-let numbersOffset = $('#numbers').offset().top - 500;
+// // to stop counter 
+// let started = false;
 
-// to stop counter 
-let started = false;
+// // when scroll to start counter
 
-// when scroll to start counter
+// $(window).scroll(function(){
+//     if($(window).scrollTop() >= numbersOffset){
+//         if(!started){
+//             counters.forEach(counter => startCount(counter))
+//         }
+//         started = true;
+//     }
+// })
 
-$(window).scroll(function(){
-    if($(window).scrollTop() >= numbersOffset){
-        if(!started){
-            counters.forEach(counter => startCount(counter))
-        }
-        started = true;
-    }
-})
+//=======================================================================
 
 
 // for email subscribe in footer section
@@ -337,13 +339,13 @@ $('#emailSubscribe').on('input' , function(){
 })
 
 
-// =============about page======
-   // Video Popup
-   if ($('.video-play').length) {
-    $('.video-play').magnificPopup({
-        type: 'video',
-    });
-} 
+// // =============about page======
+//    // Video Popup
+//    if ($('.video-play').length) {
+//     $('.video-play').magnificPopup({
+//         type: 'video',
+//     });
+// } 
 
 
 

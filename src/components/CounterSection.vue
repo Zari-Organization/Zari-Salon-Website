@@ -68,6 +68,9 @@
 </script>
 
 <style lang="scss" scoped>
+
+     @import '../scss/_variables.scss';
+  @import '../scss/style.scss';
     .counts-section{
         margin-bottom: 120px;
     }

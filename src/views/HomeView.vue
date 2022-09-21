@@ -130,18 +130,6 @@
   
 
   <FooterSection />
-  <header>
-    <span class="shopcountwrap">
-      <i class="shopping-cart"></i>
-      <div class="bage">0</div>
-    </span>
-  </header>
-
-
-  <div id="countHolder" class="bage">0</div>
-  <div id="cart1" class="addcart">Add Cart</div>
-
-
 
 <!--     
     <img alt="Vue logo" src="../assets/logo.png" />
