@@ -47,9 +47,9 @@ const routes = [
 
   {
     path: "/profile",
-    name: "LoginView",
+    name: "ProfileView",
     component: () =>
-      import("../views/LoginView.vue"),
+      import("../views/ProfileView.vue"),
   },
 
   {
@@ -72,6 +72,20 @@ const routes = [
     name: "ContactView",
     component: () =>
       import("../views/ContactView.vue"),
+  },
+
+  {
+    path: "/services/details",
+    name: "ServiceDetails",
+    component: () =>
+      import("../views/ServiceDetails.vue"),
+  },
+
+  {
+    path: "/cart/checkout",
+    name: "CheckoutView",
+    component: () =>
+      import("../views/CheckoutView.vue"),
   },
   // {
   //   path: '/:pathMatch(.*)*', component: () =>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="appointment-area appointment-area-3 pos-rel pt-115 pb-120" data-background="../assets/img/spa-01.jpg" style="">
+        <section class="appointment-area appointment-area-3 pos-rel pt-115 pb-120">
 
             <div class="container">
 
@@ -121,7 +121,11 @@
 
 <style lang="scss">
     .appointment-area{
-        background-image: ur('../assets/check-out/spa-01.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url("../assets/check-out/spa-01.jpg");
+        margin-bottom: 120px;
 
     }
 

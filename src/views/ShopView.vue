@@ -98,7 +98,7 @@
                         <!--== Start Product Item ==-->
                         <div class="product-item">
                             <div class="product-thumb">
-                                <a class="d-block" href="product-details.html">
+                                <a class="d-block"   >
                                     <img src="../assets/shop/product2.webp" width="370" height="450" alt="Image-HasTech">
                                 </a>
                                 <span class="flag-new">new</span>
@@ -106,7 +106,7 @@
                                     <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
                                         <i><fa :icon="['fas','expand']" /></i>
                                     </button>
-                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">
+                                    <button type="button" class="product-action-btn action-btn-cart" data-bs-toggle="modal" data-bs-target="#action-CartAddModal" id="liveAlertBtn">
                                         <span>Add to cart</span>
                                     </button>
                                     <button type="button" class="product-action-btn action-btn-wishlist" data-bs-toggle="modal" data-bs-target="#action-WishlistModal">
@@ -126,7 +126,7 @@
                                     </div>
                                     <div class="reviews">150 reviews</div>
                                 </div>
-                                <h4 class="title"><a href="product-details.html">Readable content DX22</a></h4>
+                                <h4 class="title"><a   >Readable content DX22</a></h4>
                                 <div class="prices">
                                     <span class="price">$210.00</span>
                                     <span class="price-old">300.00</span>
@@ -152,8 +152,8 @@
                         <!--== Start Product Item ==-->
                         <div class="product-item">
                             <div class="product-thumb">
-                                <a class="d-block" href="product-details.html">
-                                    <img src="../assets/shop/product.webp" width="370" height="450" alt="Image-HasTech">
+                                <a class="d-block"   >
+                                    <img src="../assets/shop/product.webp" width="370" height="450" alt="Image-HasTech" />
                                 </a>
                                 <span class="flag-new">new</span>
                                 <div class="product-action">
@@ -180,7 +180,7 @@
                                     </div>
                                     <div class="reviews" >150 reviews</div>
                                 </div>
-                                <h4 class="title"><a href="product-details.html">Modern Eye Brush</a></h4>
+                                <h4 class="title"><a   >Modern Eye Brush</a></h4>
                                 <div class="prices">
                                     <span class="price">$210.00</span>
                                     <span class="price-old">300.00</span>
@@ -204,7 +204,7 @@
                         <!--== Start Product Item ==-->
                         <div class="product-item">
                             <div class="product-thumb">
-                                <a class="d-block" href="product-details.html">
+                                <a class="d-block"   >
                                     <img src="../assets/shop/product3.webp" width="370" height="450" alt="Image-HasTech">
                                 </a>
                                 <span class="flag-new">new</span>
@@ -231,7 +231,7 @@
                                     </div>
                                     <div class="reviews">150 reviews</div>
                                 </div>
-                                <h4 class="title"><a href="product-details.html">Voyage face cleaner</a></h4>
+                                <h4 class="title"><a   >Voyage face cleaner</a></h4>
                                 <div class="prices">
                                     <span class="price">$210.00</span>
                                     <span class="price-old">300.00</span>
@@ -255,8 +255,9 @@
                         <!--== Start Product Item ==-->
                         <div class="product-item">
                             <div class="product-thumb">
-                                <a class="d-block" href="product-details.html">
-                                    <img src="../assets/shop/product4.webp" width="370" height="450" alt="Image-HasTech">
+                                <a class="d-block"   >
+                                    <img src="../assets/shop/product4.webp" width="370" height="450" alt="Image-HasTech" />
+
                                 </a>
                                 <span class="flag-new">new</span>
                                 <div class="product-action">
@@ -282,7 +283,7 @@
                                     </div>
                                     <div class="reviews">150 reviews</div>
                                 </div>
-                                <h4 class="title"><a href="product-details.html">Impulse Duffle</a></h4>
+                                <h4 class="title"><a   >Impulse Duffle</a></h4>
                                 <div class="prices">
                                     <span class="price">$210.00</span>
                                     <span class="price-old">300.00</span>
@@ -306,8 +307,8 @@
                         <!--== Start Product Item ==-->
                         <div class="product-item">
                             <div class="product-thumb">
-                                <a class="d-block" href="product-details.html">
-                                    <img src="../assets/shop/product5.webp" width="370" height="450" alt="Image-HasTech">
+                                <a class="d-block">
+                                    <img src="../assets/shop/product5.webp" width="370" height="450" alt="Image-HasTech" />
                                 </a>
                                 <span class="flag-new">new</span>
                                 <div class="product-action">
@@ -333,7 +334,7 @@
                                     </div>
                                     <div class="reviews">150 reviews</div>
                                 </div>
-                                <h4 class="title"><a href="product-details.html">Sprite Yoga Straps1</a></h4>
+                                <h4 class="title"><a   >Sprite Yoga Straps1</a></h4>
                                 <div class="prices">
                                     <span class="price">$210.00</span>
                                     <span class="price-old">300.00</span>
@@ -357,7 +358,7 @@
                         <!--== Start Product Item ==-->
                         <div class="product-item">
                             <div class="product-thumb">
-                                <a class="d-block" href="product-details.html">
+                                <a class="d-block">
                                     <img src="../assets/shop/product6.webp" width="370" height="450" alt="Image-HasTech">
                                 </a>
                                 <span class="flag-new">new</span>
@@ -384,7 +385,7 @@
                                     </div>
                                     <div class="reviews">150 reviews</div>
                                 </div>
-                                <h4 class="title"><a href="product-details.html">Fusion facial cream</a></h4>
+                                <h4 class="title"><a   >Fusion facial cream</a></h4>
                                 <div class="prices">
                                     <span class="price">$210.00</span>
                                     <span class="price-old">300.00</span>
@@ -437,6 +438,131 @@
         </section>
 
 
+ <!--== Start Product Quick Wishlist Modal ==-->
+ <aside class="product-action-modal modal fade" id="action-WishlistModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="product-action-view-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i><fa :icon="['fas', 'times']" /></i>
+                    </button>
+                    <div class="modal-action-messages">
+                        <i class="fa fa-check-square-o"></i> Added to wishlist successfully!
+                    </div>
+                    <div class="modal-action-product">
+                        <div class="thumb">
+                            <img src="../assets/shop/product.webp" alt="Organic Food Juice" />
+                        </div>
+                        <h4 class="product-name"><a   >Product name</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+<!--== End Product Quick Wishlist Modal ==-->
+
+        <!--== Start Product Quick Add Cart Modal ==-->
+        <aside class="product-action-modal modal fade" id="action-CartAddModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="product-action-view-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal">
+                                <i><fa :icon="['fas', 'times']" /></i>
+                            </button>
+                            <div class="modal-action-messages">
+                                <i class="fa fa-check-square-o"></i> Added to cart successfully!
+                            </div>
+                            <div class="modal-action-product">
+                                <div class="thumb">
+                                    <img src="../assets/shop/product2.webp" alt="Organic Food Juice" />
+                                </div>
+                                <h4 class="product-name"><a   >product name</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!--== End Product Quick Add Cart Modal ==-->
+
+        <!--== Start Product Quick View Modal ==-->
+        <aside class="product-cart-view-modal modal fade" id="action-QuickViewModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="product-quick-view-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal">
+                                <span><fa :icon="['fas', 'close']" /></span>
+
+                            </button>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <!--== Start Product Thumbnail Area ==-->
+                                        <div class="product-single-thumb">
+                                            <img src="../assets/shop/product3.webp" width="544" height="560" alt="Image-HasTech" />
+                                        </div>
+                                        <!--== End Product Thumbnail Area ==-->
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <!--== Start Product Info Area ==-->
+                                        <div class="product-details-content">
+                                            <h5 class="product-details-collection">Premioum collection</h5>
+                                            <h3 class="product-details-title">Offbline Instant Age Rewind Eraser.</h3>
+                                            <div class="product-details-review mb-5">
+                                                <div class="product-review-icon">
+                                                    <i><fa :icon="['fas', 'star']" /></i>
+                                                    <i><fa :icon="['fas', 'star']" /></i>
+                                                    <i><fa :icon="['fas', 'star']" /></i>
+                                                    <i><fa :icon="['fas', 'star']" /></i>
+                                                    <i><fa :icon="['fas', 'star-half']" /></i>
+                                                 
+                                                </div>
+                                                <button type="button" class="product-review-show">150 reviews</button>
+                                            </div>
+                                            <p class="mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, repellendus. Nam voluptate illo ut quia non sapiente provident alias quos laborum incidunt, earum accusamus, natus. Vero pariatur ut veniam sequi amet consectetur.</p>
+                                      
+                                            <div class="product-details-pro-qty product-quantity">
+                                               <div class="pro-qty">
+                                                    <input type="text" class="quantity" title="Quantity" value="1"/>
+                                                    <div class="dec qty-btn">-</div>
+                                                    <div class="inc qty-btn">+</div>
+                                                </div>
+                                            </div>
+
+
+                                                
+
+                                            <div class="product-details-action">
+                                                <h4 class="price">$254.22</h4>
+                                                <div class="product-details-cart-wishlist">
+                                                    <!-- <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#action-CartAddModal">Add to cart</button> -->
+                                                    <button type="button" class="btn second-btn py-2 px-4" data-bs-toggle="modal" data-bs-target="#action-CartAddModal" id="liveAlertBtn">
+                                                        <span>Add to cart</span>
+                                                    </button>
+
+
+
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--== End Product Info Area ==-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!--== End Product Quick View Modal ==-->
+
+
+
 
         
 
@@ -465,6 +591,51 @@ import FooterSection from '@/components/FooterSection.vue';
     FooterSection,
 }
   }
+
+
+  
+import $ from "jquery";
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+    var proQty = $(".pro-qty");
+    proQty.append('<div class= "dec qty-btn">-</div>');
+    proQty.append('<div class="inc qty-btn">+</div>');
+    $('.qty-btn').on('click', function (e) {
+      e.preventDefault();
+      var $button = $(this);
+      var oldValue = $button.parent().find('input').val();
+      var newVal = 1;
+
+      if ($button.hasClass('inc')) {
+        var newVal = parseFloat(oldValue) + 1;
+      } else {
+        // Don't allow decrementing below zero
+        if (oldValue > 1) {
+          var newVal = parseFloat(oldValue) - 1;
+        } else {
+          newVal = 1;
+        }
+      }
+      $button.parent().find('input').val(newVal);
+    });
+
+})
+
+
+
+
+
+//   $('.action-btn-wishlist').click{
+
+//   }
   </script>
 
   <style lang="scss">
@@ -472,7 +643,285 @@ import FooterSection from '@/components/FooterSection.vue';
   @import '../scss/_variables.scss';
   @import '../scss/style.scss';
 
-    .section-space{
+
+.second-btn, .main-btn{
+    border-radius: 50px;
+}
+//modal==========================================
+
+.product-action-modal .modal-content {
+    border-radius: 0 0 5px 5px;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+.modal-dialog {
+    max-width: 500px !important;
+    margin: 1.75rem auto;
+}
+.product-action-modal .product-action-view-content .btn-close {
+    background-image: none;
+    box-shadow: none;
+    border-radius: 5px 5px 0 0;
+    font-size: 18px;
+    width: 100%;
+    height: 32px;
+    line-height: 18px;
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    background-color: $main-color;
+    color: #fff;
+    opacity: 1;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.product-action-modal .product-action-view-content .modal-action-messages {
+    font-size: 15px;
+    line-height: 1;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.product-action-modal .product-action-view-content .modal-action-messages i {
+    position: relative;
+    top: 0;
+    margin-right: 5px;
+}
+
+.product-action-modal .product-action-view-content .modal-action-product .thumb{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+.product-action-modal .product-action-view-content .modal-action-product .thumb img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    transition: 0.3s;
+}
+.thumb img:hover{
+    transform: scale(1.1, 1.1);
+}
+.product-action-modal .product-action-view-content .modal-action-product .product-name {
+    margin: 18px 0 2px;
+    font-size: 18px;
+    text-align: center;
+}
+
+// expand product details ===========================
+
+.product-cart-view-modal .modal-dialog {
+    max-width: 1180px !important;
+}
+
+.product-cart-view-modal .modal-content {
+    border: none;
+    margin: 0 auto;
+    width: auto;
+}
+
+.product-cart-view-modal .modal-body {
+    padding: 30px 15px;
+}
+
+.product-cart-view-modal .btn-close {
+    background-color: #fff;
+    box-shadow: none;
+    border: 1px solid #c8c8c8;
+    background-image: none;
+    font-size: 22px;
+    line-height: 1;
+    border-radius: 0 0 0 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 45px;
+    height: 45px;
+}
+
+@media only screen and (max-width:575px){
+    .product-cart-view-modal .modal-body{
+        padding:15px 0;
+    }
+}
+.product-cart-view-modal .modal-content{
+    border:none;margin:0 auto;width:auto;
+}
+.product-cart-view-modal .product-single-info{
+    padding-bottom:0;padding-top:20px;
+    margin-left:0;margin-bottom:0
+}
+.product-cart-view-modal .product-single-info .prices{
+    margin:20px 0;
+}
+.product-cart-view-modal .product-single-info .desc{
+    margin-bottom:20px;
+}
+.product-cart-view-modal .btn-close span{
+    position:relative;
+    top:-7px;
+    left:7px
+}
+
+
+
+.product-details-content .product-details-collection {
+    color: #1b1c1e;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+.product-quick-view-content .product-details-content .product-details-title {
+    font-size: 40px;
+    margin-bottom: 22px;
+    line-height: 1.2;
+}
+.product-details-review {
+    align-items: center;
+    display: flex;
+}
+
+.product-details-review .product-review-icon {
+    display: flex;
+    font-size: 16px;
+    color: $main-color;
+    letter-spacing: 5px;
+    margin-right: 26px;
+}
+
+
+.product-details-review .product-review-show {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 1;
+    text-align: right;
+    color: #898989;
+}
+
+
+.product-details-pro-qty {
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 34px;
+    margin-bottom: 32px;
+}
+    .pro-qty {
+        display: inline-block;
+        position: relative;
+    }
+
+    .pro-qty input{
+        border:1px solid #eee;
+        box-shadow:inset 0 0 6px 0 #1b1c1e17;
+        
+    }
+    .pro-qty .qty-btn {
+        cursor: pointer;
+        position: absolute;
+        line-height: 21px;
+        color: #555;
+        height: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 28px;
+        width: 53px;
+        text-align: center;
+        transition: all .5s ease 0s;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .pro-qty .inc {
+        right: 0;
+        border-left: 1px solid #cdcdcd;
+        padding-right: 5px;
+    }
+    .pro-qty .qty-btn {
+        cursor: pointer;
+        position: absolute;
+        line-height: 21px;
+        color: #555;
+        height: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 28px;
+        width: 53px;
+        text-align: center;
+        transition: all .5s ease 0s;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .pro-qty input {
+        width: 170px;
+        height: 50px;
+        font-size: 13px;
+        border: 2px solid $main-color;
+        border-radius: 50px;
+        color: #231942;
+        font-weight: 700;
+        padding: 0 55px;
+        text-align: center;
+    }
+
+    .pro-qty .dec {
+        left: 0;
+        border-right: 1px solid #cdcdcd;
+        padding-left: 5px;
+        line-height: 22px;
+    }
+    
+
+    .product-details-action {
+        margin-top: 30px;
+        align-items: center;
+        display: flex;
+    }
+
+
+.product-details-action .price {
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 44px;
+
+}
+.product-details-cart-wishlist {
+    margin-left: 28px;
+}
+
+
+
+
+
+  .section-space{
         margin-bottom:120px;
     }
     @media only screen and (min-width:992px) and (max-width:1199px){
@@ -532,7 +981,7 @@ import FooterSection from '@/components/FooterSection.vue';
     }
 }
 .product-category-item .title:before{
-    background-color:#ff6565;
+    background-color:$main-color;
     content:"";
     height:1px;
     left:50%;
@@ -549,7 +998,7 @@ import FooterSection from '@/components/FooterSection.vue';
     position:absolute;
     right:20px;
     top:-35px;
-    background-color:#ff6565;
+    background-color:$main-color;
     border-radius:50px;
     color:#fff;
     display:inline-block;
@@ -654,10 +1103,10 @@ import FooterSection from '@/components/FooterSection.vue';
                 display:none
             }
         }
-        .product-item .product-action .product-action-btn{
+       .product-action-btn{
             background-color:#fff;
             border:2px solid $main-color;
-            color:#000;
+            color:#1b1c1e;
             display:inline-block;
             opacity:0;
             transform:translateY(40px);
@@ -666,14 +1115,20 @@ import FooterSection from '@/components/FooterSection.vue';
             -ms-transform:translateY(40px);
             -o-transform:translateY(40px);
             transition:all .5s ease 0s;
-            transition-delay:.1s
+            transition:.1s
         }
-        .product-item .product-action .action-btn-cart{
+
+     .product-action-btn:hover{
+            color: #fff;
+            background-color: $main-color;
+            
+        }
+         .action-btn-cart{
             border-radius:50px;
             height:50px;
             letter-spacing:.2em;
             font-size:13px;
-            color:#000;
+            color:#1b1c1e;
             font-weight:500;margin:0 20px;
             padding:5px 28px 5px 32px;
             text-align:center;
@@ -681,7 +1136,7 @@ import FooterSection from '@/components/FooterSection.vue';
             transition-delay:.15s
         }
         @media only screen and (min-width:768px) and (max-width:991px),only screen and (min-width:992px) and (max-width:1199px){
-            .product-item .product-action .action-btn-cart{
+             .action-btn-cart{
                 height:44px;
                 font-size:11px;
                 margin:0 10px;
@@ -689,7 +1144,7 @@ import FooterSection from '@/components/FooterSection.vue';
             }
         }
         @media only screen and (max-width:767px){
-            .product-item .product-action .action-btn-cart{
+         .action-btn-cart{
                 height:40px;
                 font-size:11px;
                 margin:0 8px;
@@ -697,7 +1152,7 @@ import FooterSection from '@/components/FooterSection.vue';
                 letter-spacing:.4px
             }
         }
-        .product-item .product-action .action-btn-quick-view,.product-item .product-action .action-btn-wishlist{
+      .action-btn-quick-view, .action-btn-wishlist{
             border-radius:50%;
             height:50px;
             font-size:20px;
@@ -705,7 +1160,7 @@ import FooterSection from '@/components/FooterSection.vue';
             width:50px
         }
         @media only screen and (min-width:768px) and (max-width:991px),only screen and (min-width:992px) and (max-width:1199px){
-            .product-item .product-action .action-btn-quick-view,.product-item .product-action .action-btn-wishlist{
+          .action-btn-quick-view, .action-btn-wishlist{
                 height:44px;
                 font-size:15px;
                 line-height:38px;
@@ -713,21 +1168,21 @@ import FooterSection from '@/components/FooterSection.vue';
             }
         }
         @media only screen and (max-width:767px){
-            .product-item .product-action .action-btn-quick-view,.product-item .product-action .action-btn-wishlist{
+            .action-btn-quick-view, .action-btn-wishlist{
                 height:42px;
                 font-size:14px;
                 line-height:36px;
                 width:42px}
             }
-            .product-item .product-action .action-btn-wishlist{
+            .action-btn-wishlist{
                 transition-delay:.2s
             }
-            .product-item .product-action .action-btn-quick-view{
+            .action-btn-quick-view{
                 font-size:17px;
                 line-height:45px
             }
             @media only screen and (min-width:768px) and (max-width:991px),only screen and (min-width:992px) and (max-width:1199px){
-                .product-item .product-action .action-btn-quick-view{
+                .action-btn-quick-view{
                     font-size:14px;
                     line-height:30px;
                     height:44px;
@@ -735,7 +1190,7 @@ import FooterSection from '@/components/FooterSection.vue';
                 }
             }
             @media only screen and (max-width:767px){
-                .product-item .product-action .action-btn-quick-view{
+                .action-btn-quick-view{
                     font-size:12px;
                     line-height:25px;
                     height:42px;
@@ -770,7 +1225,7 @@ import FooterSection from '@/components/FooterSection.vue';
                 margin-bottom:20px;display:flex;align-items:center;justify-content:space-between}
                 @media only screen and (max-width:767px),only screen and (min-width:768px) and (max-width:991px),only screen and (min-width:992px) and (max-width:1199px){
                     .product-item .product-rating{
-                        margin-bottom:8px;display:block}}.product-item .product-rating .rating{color:#ff6565;cursor:pointer;font-size:16px;display:flex
+                        margin-bottom:8px;display:block}}.product-item .product-rating .rating{color:$main-color;cursor:pointer;font-size:16px;display:flex
                 }
                 @media only screen and (max-width:767px),only screen and (min-width:768px) and (max-width:991px),only screen and (min-width:992px) and (max-width:1199px){
                     .product-item .product-rating .rating{
@@ -835,7 +1290,7 @@ import FooterSection from '@/components/FooterSection.vue';
                         }
                     }
                     .product-item .flag-new{
-                        background-color:#ff6565;
+                        background-color:$main-color;
                         border-radius:50px;
                         color:#fff;
                         display:inline-block;

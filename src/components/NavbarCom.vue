@@ -1,107 +1,141 @@
 <template>
     <div>
+
+        <!--== Scroll Top Button ==-->
+
+
         <div id="ready">
             <i><fa :icon="['fas', 'spinner']" class="fa-5x fa-spin"/></i>
         </div>
-        <a id="topBtn" class="position-fixed bottom-0 end-0 translate-middle text-white">
-            <i><fa :icon="['fas', 'chevron-up']" class="fs-3 p-2 main-bg rounded-circle" /></i>
-        </a>
+        
+<header class="sticky-header">
+    <nav class="navbar navbar-expand-lg fixed-top bg-white p-0">
 
-        <nav class="navbar navbar-expand-lg fixed-top bg-white p-0">
+        <div class="container-fluid container-xl w-special-95 d-flex justify-content-between align-items-center">
+   
+            <a class="navbar-brand">
+                <img src="../assets/logo.png" alt="ZARI LOGO" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 py-3 py-lg-0 fw-bold">
 
-            <div class="container-fluid container-xl w-special-95 d-flex justify-content-between align-items-center">
-       
-                <a class="navbar-brand">
-                    <img src="../assets/logo.png" alt="ZARI LOGO" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 py-3 py-lg-0 fw-bold">
+                    <li class="nav-item active">
+                        <router-link class="nav-link" to="/" aria-current="page">Home <span class="sr-only">(current)</span></router-link>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <router-link class="nav-link" to="/about">About</router-link>
+                      </li>
 
-                        <li class="nav-item active">
-                            <router-link class="nav-link" to="/" aria-current="page">Home <span class="sr-only">(current)</span></router-link>
+                      <li class="nav-item">
+                        <router-link class="nav-link" to="/services">Services</router-link>
+                      </li>
+
+                      <li class="nav-item">
+                        <router-link class="nav-link" to="/gallery">Gallery</router-link>
+                      </li>
+
+                      <li class="nav-item">
+                        <router-link class="nav-link" to="/booking">Book Appointment</router-link>
+                      </li>
+
+                      <li class="nav-item">
+                        <router-link class="nav-link" to="/shop">Shop</router-link>
+                      </li>
+
+                      <li class="nav-item">
+                        <router-link class="nav-link" to="/contact">Contact Us</router-link>
+                      </li>
+                      <div class="right-nav-part">
+
+                        
+                          <!-- <li class="nav-item">
+
+                            <i class="header-action-btn ms-0 nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasSearch" aria-controls="AsideOffcanvasSearch"><fa :icon="['fas', 'search']" /></i>
+
+                        </li> -->
+
+                        
+                        <li class="nav-item">
+                            <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'heart']" /></i></a></router-link>
                           </li>
                           
                           <li class="nav-item">
-                            <router-link class="nav-link" to="/about">About</router-link>
+                            <router-link class="nav-link" to="/cart"><a><i><fa :icon="['fas', 'cart-shopping']" /></i></a></router-link>
                           </li>
-
+                          
                           <li class="nav-item">
-                            <router-link class="nav-link" to="/services">Services</router-link>
+                            <router-link class="nav-link" to="/profile"><a><i><fa :icon="['fas', 'user']" /></i></a></router-link>
                           </li>
+                    
+                    </div>
 
-                          <li class="nav-item">
-                            <router-link class="nav-link" to="/gallery">Gallery</router-link>
-                          </li>
 
-                          <li class="nav-item">
-                            <router-link class="nav-link" to="/shop">Shop</router-link>
-                          </li>
+                </ul>
+                <!-- <div class="custome d-flex justify-content-evenly align-items-center pb-4 pb-lg-0"> -->
+              
+                    <!-- <div class="language py-2">
+                        <a> <i><fa :icon="['fas' , 'globe']" /></i></a>
+                        <i class="fa-solid fa-globe fs-6"></i>
+                        <select class="py-1" name="language">
+                            <option selected value="English">
+                                En
+                            </option>
+                            <option value="Arabic">
+                                Ar
+                            </option>
+                          
+                        </select>
+                    </div> -->
 
-                          <li class="nav-item">
-                            <router-link class="nav-link" to="/booking">Book Appointment</router-link>
-                          </li>
+                    <!-- <a><i><fa :icon="['fas', 'search']" /></i></a>
+                    <a><i><fa :icon="['fas', 'heart']" /></i></a>
+                    <a><i><fa :icon="['fas', 'cart-shopping']" /></i></a>
+                    <a><i><fa :icon="['fas', 'user']" /></i></a> -->
 
-                          <li class="nav-item">
-                            <router-link class="nav-link" to="/contact">Contact Us</router-link>
-                          </li>
-                          <div class="right-nav-part">
-    
-                            <!-- <li class="nav-item"> -->
-                                <!-- <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'search']" /></i></a></router-link> -->
-                            <!-- </li> -->
-                            <!-- <div class="input-group">
-                                <div class="form-outline">
-                                  <input type="search" id="form1" class="form-control" />
-                                  <label class="form-label" for="form1">Search</label>
-                                </div>
-                                <button type="button" class="btn btn-primary">
-                                    <i><fa :icon="['fas', 'search']" /></i>
-                                                                </button>
-                              </div> -->
-                            
-                            <li class="nav-item">
-                                <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'heart']" /></i></a></router-link>
-                              </li>
-                              
-                              <li class="nav-item">
-                                <router-link class="nav-link" to="/cart"><a><i><fa :icon="['fas', 'cart-shopping']" /></i></a></router-link>
-                              </li>
-                              
-                              <li class="nav-item">
-                                <router-link class="nav-link" to="/profile"><a><i><fa :icon="['fas', 'user']" /></i></a></router-link>
-                              </li>
-                        
+                <!-- </div> -->
+            </div>
+        </div>
+    </nav>
+
+
+</header>
+        
+
+       
+         <!--== Start Aside Search Form ==-->
+<!--  
+        <aside class="aside-search-box-wrapper offcanvas offcanvas-top show" tabindex="-1" id="AsideOffcanvasSearch" aria-labelledby="offcanvasTopLabel" style="visibility: visible;" aria-modal="true" role="dialog">
+            <div class="offcanvas-header">
+                <h5 class="d-none" id="offcanvasTopLabel">Aside Search</h5>
+                    <i class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><fa :icon="['fas', 'close']" /></i>
+            </div>
+            <div class="offcanvas-body">
+                <div class="container pt--0 pb--0">
+                    <div class="search-box-form-wrap">
+                        <div class="search-note">
+                            <p>Start typing and press Enter to search</p>
                         </div>
-
-
-                    </ul>
-                    <!-- <div class="custome d-flex justify-content-evenly align-items-center pb-4 pb-lg-0"> -->
-                  
-                        <!-- <div class="language py-2">
-                            <a> <i><fa :icon="['fas' , 'globe']" /></i></a>
-                            <i class="fa-solid fa-globe fs-6"></i>
-                            <select class="py-1" name="language">
-                                <option selected value="English">
-                                    En
-                                </option>
-                                <option value="Arabic">
-                                    Ar
-                                </option>
-                              
-                            </select>
-                        </div> -->
-
-                        <!-- <a><i><fa :icon="['fas', 'search']" /></i></a>
-                        <a><i><fa :icon="['fas', 'heart']" /></i></a>
-                        <a><i><fa :icon="['fas', 'cart-shopping']" /></i></a>
-                        <a><i><fa :icon="['fas', 'user']" /></i></a> -->
-
-                    <!-- </div> -->
+                        <form action="#" method="post">
+                            <div class="aside-search-form position-relative">
+                                <label for="SearchInput" class="visually-hidden">Search</label>
+                                <input id="SearchInput" type="search" class="form-control" placeholder="Search entire Salon...">
+                                <button class="search-button" type="submit"> <i><fa :icon="['fas', 'search']" /></i></button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </nav>
+        </aside> -->
+
+
+        <!--== End Aside Search Form ==-->
+
+
+
+
     </div>
 
 </template>
@@ -112,20 +146,50 @@ export default {
 }
 
 import $ from "jquery";
+
+
+
+
+
+
+
+
+
 $(document).ready(function(){
+
+
+ // Offcanvas Nav Js
+ var $offcanvasNav = $("#offcanvasNav a");
+    $offcanvasNav.on("click", function () {
+      var link = $(this);
+      var closestUl = link.closest("ul");
+      var activeLinks = closestUl.find(".active");
+      var closestLi = link.closest("li");
+      var linkStatus = closestLi.hasClass("active");
+      var count = 0;
+
+      closestUl.find("ul").slideUp(function () {
+        if (++count == closestUl.find("ul").length)
+          activeLinks.removeClass("active");
+      });
+
+      if (!linkStatus) {
+        closestLi.children("ul").slideDown();
+        closestLi.addClass("active");
+      }
+    });
+
+
+
+
+
     $('#ready').fadeOut(2000, function(){
 
         $('body').css('overflow','visible');
         $('#topBtn').css('display' , 'none')
     });
 
-    $('#topBtn').click(function(){
-    $('html , body').animate({scrollTop : 0}, 500);
-})
-
-$('#btnTopFooter').click(function(){
-    $('html , body').animate({scrollTop : 0}, 500);
-})
+  
 
 $(window).scroll(function(){
 
@@ -281,7 +345,29 @@ $('#emailSubscribe').on('input' , function(){
     });
 } 
 
+
+
+
+
+
 });
+// ======================================================== service section
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </script>
@@ -290,7 +376,141 @@ $('#emailSubscribe').on('input' , function(){
 <style lang="scss" scoped>
     @import '../scss/_variables';
     @import '../scss/style.scss';
-    
+
+    .second-btn, .main-btn{
+        border-radius: 50px;
+    }
+//scroll to top=====================
+
+// search modal ==================================================
+.modal {
+    z-index: 99999;
+}
+
+
+.aside-search-box-wrapper .search-note p{
+    font-size:14px;text-transform:capitalize;color:#666;font-weight:400;margin-bottom:8px
+}
+@media only screen and (max-width:479px){
+    .aside-search-box-wrapper .search-note p{
+        font-size:13px
+    }
+}
+.aside-search-box-wrapper.offcanvas-top{
+    height:239px
+}
+@media only screen and (max-width:767px){
+    .aside-search-box-wrapper.offcanvas-top{
+        height:170px
+    }
+}
+.aside-search-box-wrapper .offcanvas-header{
+    justify-content:flex-end;
+    padding:0
+}
+
+.aside-search-box-wrapper .offcanvas-body{
+    padding-top:64px
+}
+@media only screen and (max-width:767px){
+    .aside-search-box-wrapper .offcanvas-body{
+        padding-top:40px
+    }
+}
+.aside-search-box-wrapper .btn-close{
+    position:absolute;background-image:none;background-color:$main-color;color:#fff;
+    opacity:1;font-size:18px;top:0;width:40px;padding:0;
+    margin:0;height:40px;line-height:40px;border-radius:0 0 8px 8px;
+    right:15px
+}
+@media only screen and (max-width:767px){
+    .aside-search-box-wrapper .btn-close{
+        padding:0;margin:0;width:26px;height:26px;line-height:0;font-size:12px;border-radius:50%;
+        right:-4px;top:-4px
+    }
+}
+.aside-search-box-wrapper .btn-close:hover{
+    color:#fff;
+    background-color:#ff3232
+}
+.aside-search-form{position:relative
+}
+.aside-search-form .form-control{border:1px solid $main-color;color:$main-color;box-shadow:none;
+    border-radius:8px;height:70px;font-size:15px;font-weight:500;
+    line-height:70px;padding:10px 75px 10px 24px
+}
+.aside-search-form .form-control::-webkit-input-placeholder{
+    color:$main-color
+}
+.aside-search-form .form-control:-moz-placeholder,.aside-search-form .form-control::-moz-placeholder{
+    color:$main-color;
+}
+.aside-search-form .form-control:-ms-input-placeholder{
+    color:$main-color;
+
+}
+    @media only screen and (max-width:767px){
+        .aside-search-form .form-control{
+            font-size:13px;height:50px;padding:10px 75px 10px 14px
+        }
+    }
+    .aside-search-form .search-button{
+        border:none;background-color:$main-color;border-radius:0 8px 8px 0;
+        position:absolute;top:0;right:0;height:100%;width:70px;font-size:18px;
+        color:#fff}
+        @media only screen and (max-width:767px){
+            .aside-search-form .search-button{width:50px;font-size:16px}}
+            .aside-search-form .search-button:hover{color:#fff;background-color:$main-color}
+            .offcanvas{
+                z-index:999!important
+            }
+            @keyframes a{0%{transform:translateY(-100%)}to{transform:translateY(0)}
+        }
+        @keyframes b{0%{transform:translateY(0)}to{transform:translateY(-100%)}}
+
+
+
+
+
+
+
+
+
+
+
+
+     header{
+   text-align:right;
+   width:700px;
+   padding-top:10px;
+}
+.shopcountwrap{
+    position:relative;
+}
+.bage{
+   background-color: red;
+    border-radius: 50%;
+    color: white;
+    height: 20px;
+    left: 1px;
+    line-height: 20px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: -22px;
+    width: 20px;
+    z-index: 1;
+ }
+
+
+
+
+
+
+
+
+
+
     .navbar{
         font-size: 13px;
         font-weight: 600;
@@ -352,7 +572,7 @@ $('#emailSubscribe').on('input' , function(){
         white-space: nowrap;
     }
     .navbar .navbar-nav li .nav-link{
-        color: #000000CC;
+        color: #1b1c1eCC;
         transition: all 0.25s;
         text-align: center;
     }
@@ -389,14 +609,14 @@ $('#emailSubscribe').on('input' , function(){
     .custome a{
         padding-top: 12px;
         padding-bottom: 12px;
-        color: #000 !important;
+        color: #1b1c1e !important;
         font-weight: 500;
         transition: all 0.25s;
     }
     
     .custome a i{
         font-size: 15px;
-        color: #000;
+        color: #1b1c1e;
         transition: 0.3s all;
     }
     .custome .currency, .custome .language, .language i{

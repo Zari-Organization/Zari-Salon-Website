@@ -98,7 +98,7 @@
     font-size:16px;
     text-transform:uppercase;
     font-family:Montserrat,sans-serif;
-    color:#000
+    color:#1b1c1e
 }
 .member-position{
     text-transform:capitalize;

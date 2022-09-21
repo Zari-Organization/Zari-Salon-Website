@@ -25,8 +25,8 @@
                                   
                                   </p>
                                   <div class="buttons">
-                                      <a href="#pricing" class="btn main-btn py-2 px-4 me-3">Book Appointment</a>
-                                      <a href="#footer" class="btn second-btn py-2 px-4">About Us</a>
+                                    <router-link class="btn main-btn py-2 px-4 me-3" to="/booking">Book Appointment</router-link>
+                                    <router-link class="btn second-btn py-2 px-4" to="/about">About us</router-link>
                                   </div>
                               </div>
                           </div>
@@ -48,8 +48,8 @@
                                   
                                   </p>
                                   <div class="buttons">
-                                      <a href="#pricing" class="btn main-btn py-2 px-4 me-3">Book Appointment</a>
-                                      <a href="#footer" class="btn second-btn py-2 px-4">About Us</a>
+                                    <router-link class="btn main-btn py-2 px-4 me-3" to="/booking">Book Appointment</router-link>
+                                    <router-link class="btn second-btn py-2 px-4" to="/about">About us</router-link>
                                   </div>
                               </div>
                           </div>
@@ -78,8 +78,10 @@
                                   
                                   </p>
                                   <div class="buttons">
-                                      <a href="#pricing" class="btn main-btn py-2 px-4 me-3">Book Appointment</a>
-                                      <a href="#footer" class="btn second-btn py-2 px-4">About Us</a>
+                                  
+
+                                      <router-link class="btn main-btn py-2 px-4 me-3" to="/booking">Book Appointment</router-link>
+                                      <router-link class="btn second-btn py-2 px-4" to="/about">About us</router-link>
                                   </div>
                               </div>
                           </div>
@@ -128,7 +130,16 @@
   
 
   <FooterSection />
+  <header>
+    <span class="shopcountwrap">
+      <i class="shopping-cart"></i>
+      <div class="bage">0</div>
+    </span>
+  </header>
 
+
+  <div id="countHolder" class="bage">0</div>
+  <div id="cart1" class="addcart">Add Cart</div>
 
 
 
@@ -177,6 +188,10 @@ export default {
   @import '../scss/_variables.scss';
   @import '../scss/style.scss';
 
+  .second-btn, .main-btn{
+    border-radius: 50px !important;
+}
+
 /*
   .carousel-indicators{
     height: 70% !important;
@@ -200,7 +215,7 @@ export default {
   width: 90% !important;
   margin-right: auto !important;
   margin-left: auto !important;
-  color: #000 !important;
+  color: #1b1c1e !important;
   font-weight: bold !important;
   text-align: center !important;
   margin-bottom: 12px !important;
@@ -271,7 +286,7 @@ export default {
 
 
   .home{
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 #header{
@@ -286,7 +301,7 @@ export default {
 .caption h1{
     font-size: 4rem !important;
     font-family: Domine, serif;
-    color: #000;
+    color: #1b1c1e;
 }
 .caption p{
     width: 90%;
@@ -367,7 +382,7 @@ export default {
     
 }
 .slide1{
-    background-image: url("../assets/home/slide1.png");
+    background-image: url("../assets/home/slide11.png");
 }
 .slide2{    
   background-image: url("../assets/home/slide2.jpg");
@@ -385,7 +400,7 @@ export default {
 
 
 .carousel-indicators >button{
-    background-color: #000 !important;
+    background-color: #1b1c1e !important;
 }
 
 

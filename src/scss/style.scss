@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: #FAFAFA;
+    background-color: #fff;
     overflow: hidden;
 }
 
@@ -47,7 +47,7 @@ body{
     justify-content: center;
     align-items: center;
     color: $main-color;
-    background-color: #000;
+    background-color: #1b1c1e;
 }
 
 #topBtn{
@@ -181,4 +181,8 @@ i, img{
 }
 .icons-footer a .fa-linkedin-in{
     color: #0077b5;
+}
+
+.second-btn, .main-btn{
+    border-radius: 50px !important;
 }

@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <fa icon="coffee"></fa>
   <navbar-com></navbar-com>
   <!-- <fixed /> -->
   

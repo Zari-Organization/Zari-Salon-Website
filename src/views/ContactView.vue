@@ -49,13 +49,7 @@
                                 </li>
                             </ul>
 							<div class="m-t20">
-								<!-- <ul class="dlab-social-icon dlab-social-icon-lg">
-									<li><a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook bg-primary"></a></li>
-									<li><a target="_blank" href="https://twitter.com/" class="fa fa-twitter bg-primary"></a></li>
-									<li><a target="_blank" href="https://www.linkedin.com/" class="fa fa-linkedin bg-primary"></a></li>
-									<li><a target="_blank" href="https://www.instagram.com/" class="fa fa-instagram bg-primary"></a></li>
-									<li><a target="_blank" href="https://www.google.com/" class="fa fa-google-plus bg-primary"></a></li>
-								</ul> -->
+								
                                 <div class="icons-footer d-flex align-items-center">
                                     <a target="_blank" href="https://www.facebook.com/ZARISolutionksa"><i><fa :icon="['fab','facebook-f']" /></i></a>
                                     <a target="_blank" href="https://twitter.com/SolutionZari"><i><fa :icon="['fab','twitter']" /></i></a>
@@ -121,6 +115,7 @@
 
         <!-- ========================= -->
 
+        <ContactSection />
         <SubscribeSection />
         <BranchesSection />
         <FooterSection />
@@ -132,12 +127,14 @@
 import SubscribeSection from '@/components/SubscribeSection.vue';
 import FooterSection from '@/components/FooterSection.vue';
 import BranchesSection from '@/components/BranchesSection.vue';
+import ContactSection from '@/components/ContactSection.vue';
   
   export default {
     components:{
     SubscribeSection,
     FooterSection,
-    BranchesSection
+    BranchesSection,
+    ContactSection
 }
   }
   </script>
@@ -190,7 +187,7 @@ ul{
     }
     .contact-style-1 .dlab-social-icon-lg li a:hover{
         background:#fff;
-        color:#000;
+        color:#1b1c1e;
         border:1px solid #eee
     }
     .contact-style-1 .form-group{

@@ -24,7 +24,10 @@ library.add(fab)
 library.add(far)
 
 
-import 'jquery';
+// import 'jquery';
+// import './datepicker';
+// import './combining';
+// import './scrollbar';
 
 import './scss/_variables.scss';
 import './scss/style.scss';

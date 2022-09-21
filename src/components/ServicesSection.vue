@@ -16,37 +16,44 @@
 
             <div class="row">
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xm-6 ">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xm-6 " >
                     <div class="service-box text-center">
                     <div class="service-images m-b15">
-                        <img src="../assets/services/pic1.jpg" alt="" />
+                        <img src="../assets/services/pic1.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
                         <i><fa :icon="['fas', 'spray-can-sparkles']" /></i>                
                      </div>
                     <div class="service-content">
-                        <h6 class="text-uppercase"><a href="services-details.html" class="text-primary">Cosmetics</a></h6>
+                        <h6 class="text-uppercase">
+                            <router-link to="/services/details"  class="text-primary">Cosmetics</router-link>
+                        </h6>
                     </div>
                 </div>
             </div> <!--end of item-->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xm-6 ">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xm-6 " >
                     <div class="service-box text-center">
                         <div class="service-images m-b15">
-                            <img src="../assets/services/pic2.jpg" alt="" />
-                            <i><fa :icon="['fas', 'person-dress']" /></i>                
+                            <img src="../assets/services/pic2.jpg" alt=""  data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                            <!-- <i><fa :icon="['fas', 'person-dress']" /></i>                 -->
+                            <i><fa :icon="['fas', 'scissors']" /></i>                
                         </div>
                         <div class="service-content">
-                            <h6 class="text-uppercase"><a href="services-details.html" class="text-primary">Hairdressing</a></h6>
+                            <h6 class="text-uppercase">
+                                <router-link to="/services/details"  class="text-primary" >Hairdressing</router-link>
+                            </h6>
                         </div>
     
                 </div>
             </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xm-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xm-6" >
                     <div class="service-box text-center">
                         <div class="service-images m-b15">
-                            <img src="../assets/services/pic3.jpg" alt="" />
+                            <img src="../assets/services/pic3.jpg" alt=""  data-bs-toggle="modal" data-bs-target="#exampleModal" />
                             <i><fa :icon="['fas', 'fan']" /></i>                
                         </div>
                         <div class="service-content">
-                            <h6 class="text-uppercase"><a href="services-details.html" class="text-primary">Body Treatments</a></h6>
+                            <h6 class="text-uppercase">
+                                <router-link to="/services/details"  class="text-primary" >Body Treatments</router-link>
+                            </h6>
                         </div>
     
                 </div>
@@ -55,36 +62,84 @@
             <div class="col-lg-3 col-md-4 col-sm-6 col-xm-6">
                 <div class="service-box text-center">
                     <div class="service-images m-b15">
-                        <img src="../assets/services/pic4.jpg" alt="" />
+                        <img src="../assets/services/pic4.jpg" alt=""  data-bs-toggle="modal" data-bs-target="#exampleModal"/>
                         <i><fa :icon="['fab', 'canadian-maple-leaf']" /></i>                
                     </div>
                     <div class="service-content">
-                        <h6 class="text-uppercase"><a href="services-details.html" class="text-primary">Massages</a></h6>
+                        <h6 class="text-uppercase">
+                            <router-link to="/services/details"  class="text-primary" >Massages</router-link>
+                        </h6>
                     </div>
                 </div>
     
         </div>
+
+          <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Service Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col col-sm-7">
+                        <h2>Revitalise Your Mind, Body And Spirit.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                        <!-- <router-link  to="/booking" class="btn main-btn py-2 px-4 me-3" >Book Appointment</router-link> -->
+                    </div>                    
+                    <div class="col col-sm-5 modal-img ">
+                        <img class="shadow" src="../assets/services/pic4.jpg" alt="" />
+                        
+                    </div>
+                </div>
+                
+            </div>
+           
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn second-btn py-2 px-4 me-3 " data-bs-dismiss="modal">Close</button>
+          <!-- <router-link  to="/booking" class="btn main-btn py-2 px-4 me-3"  data-bs-dismiss="modal" >Book Appointment</router-link> -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+        <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+  
+
+
+       
+
         
 
 
             </div>
         </div>
     </section>
-<!-- 
-<Swiper :slides-per-view="3" :space-between="20">
-    <SwiperSlide v-for="n in 10" :key="n">
-        <img :src="'../assets/services/pic1.jpg'+n" />
-    </SwiperSlide>
-</Swiper> -->
+
+
+
+
+
 </div>
 
 </template>
 <script>
-    // import { Navigation, Pagination, Ally, Virtual } from 'swiper'
-    // import { Swiper , SwiperSlide } from 'swiper/vue';
 
-    // import'swiper/css'
-    // import 'swiper/css/bundle'
+
+
 
 </script> 
 
@@ -94,8 +149,21 @@
     @import '../scss/_variables';
     @import '../scss/style.scss';
     
+    .modal-dialog {
+    max-width: 70% !important;
+    }
+    .modal-body{
+        text-align: left;
+    }
 
-    
+    .modal-body img{
+        border-radius: 50%;
+    }
+     .modal-img{
+        display: flex;
+        justify-content: end;
+     }
+
     .services{
         margin-bottom: 120px;
     }
@@ -148,7 +216,7 @@
             position:relative
         }
     
-        .services .second-btn , .gallery .second-btn{
+       .gallery .second-btn{
             margin-top: 30px;
         }
 

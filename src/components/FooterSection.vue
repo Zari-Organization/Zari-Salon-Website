@@ -91,7 +91,7 @@
     
     .footer h4{
         text-transform: capitalize;
-        color: #000;
+        color: #1b1c1e;
         font-weight: 600;
     }
     .footer p{
@@ -118,7 +118,7 @@
         height: 20px;
         background-color: #fff;
         border-radius: 50%;
-        color: #000 !important;
+        color: #1b1c1e !important;
         display: inline-flex;
         justify-content: center;
         align-items: center;
