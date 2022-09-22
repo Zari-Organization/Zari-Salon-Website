@@ -62,8 +62,13 @@
                             <router-link class="nav-link" to="/wishlist"><a><i><fa :icon="['fas', 'heart']" /></i></a></router-link>
                           </li>
                           
-                          <li class="nav-item">
-                            <router-link class="nav-link" to="/cart"><a><i><fa :icon="['fas', 'cart-shopping']" /></i></a></router-link>
+                          <li class="nav-item cart">
+                            <router-link class="nav-link" to="/cart">
+                                <a style="display: flex; align-items: center;" >
+                                    <i><fa :icon="['fas', 'cart-shopping']" /></i>
+                                    <span>0</span>
+                                </a>
+                            </router-link>
                           </li>
                           
                           <li class="nav-item">
@@ -89,11 +94,6 @@
                           
                         </select>
                     </div> -->
-
-                    <!-- <a><i><fa :icon="['fas', 'search']" /></i></a>
-                    <a><i><fa :icon="['fas', 'heart']" /></i></a>
-                    <a><i><fa :icon="['fas', 'cart-shopping']" /></i></a>
-                    <a><i><fa :icon="['fas', 'user']" /></i></a> -->
 
                 <!-- </div> -->
             </div>
@@ -383,6 +383,23 @@ $('#emailSubscribe').on('input' , function(){
         border-radius: 50px;
     }
 //scroll to top=====================
+//=================== cart counter ============
+.cart span {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $main-color;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+}
+li .nav-link i {
+    font-size: 17px;
+}
 
 // search modal ==================================================
 .modal {

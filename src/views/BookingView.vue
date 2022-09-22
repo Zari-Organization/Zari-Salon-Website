@@ -11,8 +11,7 @@
           
         </section>
 
-        <div class="content-block">
-            <!-- About Us -->
+        <!-- <div class="content-block">
 			<div class="section-full content-inner-2">
                 <div class="container">
 					<div id="smartwizard" class="sw-main sw-theme-default">    
@@ -550,7 +549,7 @@
 					</div>
 				</div>
 			</div>
-        </div>
+        </div> -->
 
 
         <BookingSection />

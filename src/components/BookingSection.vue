@@ -28,13 +28,12 @@
 
                                 </div>
 
-                                <form action="#">
+                                <!-- <form action="#">
 
                                     <div class="row">
 
                                         <div class="col-xl-6 col-lg-6 col-md-6 mb-30">
 
-                                            <!-- <input type="text" placeholder="Your Name"> -->
 
                                             <select class="form-select" aria-label="Default select example">
                                                 <option selected>Select Category</option>
@@ -47,7 +46,6 @@
 
                                         <div class="col-xl-6 col-lg-6 col-md-6 mb-30">
 
-                                            <!-- <input type="text" placeholder="Phone number"> -->
                                             <select class="form-select" aria-label="Default select example">
                                                 <option selected>Select Service</option>
                                                 <option value="1">One</option>
@@ -59,13 +57,11 @@
 
                                         <div class="col-xl-6 col-lg-6 col-md-6 mb-30">
 
-                                            <!-- <input type="text" placeholder="Your Subject"> -->
-                                                <!-- <label for="date" class="col-1 col-form-label">Date</label> -->
+                                          
                                                   <div class="input-group date" id="datepicker">
                                                     <input type="text" class="form-control" id="date"/>
                                                     <span class="input-group-append">
                                                       <span class="input-group-text bg-light d-block">
-                                                        <!-- <i class="fa fa-calendar"></i> -->
                                                         <i><fa :icon="['fas', 'calendar']"/></i>
                                                       </span>
                                                     </span>
@@ -101,7 +97,120 @@
 
                                     </div>
 
-                                </form>
+                                </form> -->
+  <!--== Start Contact Form ==-->
+  <div class="contact-form">
+    <form id="contact-form" action="https://whizthemes.com/mail-php/raju/arden/mail.php" method="POST">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group mt-4">
+                    <!-- <input class="form-control" type="text" name="con_name" placeholder="First Name" /> -->
+                    <select class="form-select form-control" aria-label="Default select example">
+                      <option selected>Select Category</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+
+
+                </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                  <!-- <input class="form-control" type="text" placeholder="Last Name"> -->
+
+                  <div class="form-group mt-4">
+                    <select class="form-select form-control" aria-label="Default select example">
+                      <option selected>Select Service</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+
+
+                </div>
+
+
+              </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+                <!-- <input class="form-control" type="text" placeholder="Last Name"> -->
+
+                <div class="form-group mt-4">
+                  <select class="form-select form-control" aria-label="Default select example">
+                    <option selected>Available Day</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+
+
+              </div>
+
+
+            </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+              <!-- <input class="form-control" type="text" placeholder="Last Name"> -->
+
+              <div class="form-group mt-4">
+                <select class="form-select form-control" aria-label="Default select example">
+                  <option selected>Available Date</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+
+
+            </div>
+
+
+          </div>
+      </div>
+
+      <div class="col-md-12">
+        <div class="form-group">
+            <!-- <input class="form-control" type="text" placeholder="Last Name"> -->
+
+            <div class="form-group mt-4">
+              <select class="form-select form-control" aria-label="Default select example">
+                <option selected>Select Specialist</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+
+
+          </div>
+
+
+        </div>
+    </div>
+
+
+            <!-- <div class="col-12">
+                <div class="form-group">
+                    <input class="form-control" type="email" name="con_email" placeholder="Email address">
+                </div>
+            </div> -->
+            <div class="col-12">
+                <div class="form-group">
+                    <textarea class="form-control" name="con_message" placeholder="Typr your booking notes here" spellcheck="false"></textarea>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-group mb-0">
+                    <button class="btn main-btn py-2 px-4 me-3 mt-3" type="submit">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<!--== End Contact Form ==-->
+
+
 
                             </div>
 
@@ -109,6 +218,9 @@
 
                     </div>
 
+
+
+                    
                 </div>
 
             </div>
@@ -123,7 +235,143 @@
 
   @import '../scss/_variables.scss';
   @import '../scss/style.scss';
-  
+
+  @media only screen and (max-width:767px),only screen and (min-width:768px) and (max-width:991px){
+    .contact-form{
+        margin-bottom:60px
+    }
+}
+.contact-form .form-group{
+    margin-bottom:56px
+}
+.contact-form .form-control{
+    box-shadow:none;
+    outline:none;
+    color:#3f3f3f;
+    font-size:12px;
+    font-weight:500;
+    padding:0;
+    margin:0;
+    border-radius:0;
+    border-width:0 0 1px;
+    border-color:#b9b9b9;
+    padding-bottom:16px;
+    background-color: transparent;
+}
+.contact-form .form-control::-webkit-input-placeholder{
+    color:#3f3f3f
+}
+.contact-form .form-control:-moz-placeholder,.contact-form .form-control::-moz-placeholder{
+    color:#3f3f3f
+}
+.contact-form .form-control:-ms-input-placeholder{
+    color:#3f3f3f
+}
+.contact-form textarea.form-control{
+    height:138px;
+    resize:none
+}
+@media only screen and (max-width:767px),only screen and (min-width:768px) and (max-width:991px){
+    .contact-form textarea.form-control{
+        height:100px
+    }
+}
+.contact-info{
+    background:#fffaef;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    padding:41px 0
+}
+@media only screen and (max-width:767px){
+    .contact-info{
+        flex-wrap:wrap
+    }
+}
+.contact-info-item{
+    text-align:center;
+    width:33.3333%
+}
+@media only screen and (max-width:767px){
+    .contact-info-item{
+        width:50%;
+        margin-bottom:30px
+    }
+}
+@media only screen and (max-width:479px){
+    .contact-info-item{
+        width:100%
+    }
+}
+.contact-info-item:nth-child(2n){
+    border-left:2px solid #e0e0e0;
+    border-right:2px solid #e0e0e0
+}
+@media only screen and (max-width:767px){
+    .contact-info-item:nth-child(2n){
+        border-left:none;
+        border-right:none
+    }
+}
+.contact-info-item .icon{
+    margin-bottom:24px
+}
+@media only screen and (max-width:767px),only screen and (min-width:768px) and (max-width:991px){
+    .contact-info-item .icon{
+        margin-bottom:14px
+    }
+}
+.contact-info-item a,.contact-info-item p{
+    color:#1b1c1e;
+    font-size:16px;
+    line-height:28px;
+    display:block;
+    margin-bottom:5px
+}
+
+@media only screen and (max-width:767px),only screen and (min-width:768px) and (max-width:991px){
+    .contact-info-item a,.contact-info-item p{
+        font-size:15px
+    }
+}
+.contact-info-item a:hover{
+    color: $main-color;
+}
+.contact-info-item p{
+    max-width:190px;
+    margin:0 auto
+}
+.contact-left-img{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:50%;
+    border-radius:0 30px 30px 0;
+    left:0;height:100%;
+    position:absolute;
+    top:0;
+    width:calc(50% - 15px)
+}
+@media only screen and (max-width:767px),only screen and (min-width:768px) and (max-width:991px){
+    .contact-left-img{
+        height:430px;
+        position:relative;
+        width:calc(100% - 15px)
+    }
+}
+.my-account-item-wrap .title{
+    font-size:28px;
+    font-weight:500;
+    margin-bottom:30px;
+    text-transform:capitalize;
+}
+.my-account-form label{
+    color:#262626;
+    display:block;
+    cursor:pointer;
+    margin-bottom:8px;
+    font-size:13px
+}
+//==========================================================
     .appointment-area{
         background-repeat: no-repeat;
         background-position: center;

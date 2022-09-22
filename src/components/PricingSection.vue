@@ -102,7 +102,7 @@
         background-position: bottom; 
         background-size: cover; 
         background-repeat: no-repeat;
-        margin-bottom: 120px;
+        margin-bottom: 120px !important;
         padding-top: 5px;
     }
 
