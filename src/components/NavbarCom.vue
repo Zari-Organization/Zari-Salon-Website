@@ -72,7 +72,7 @@
                           </li>
                           
                           <li class="nav-item">
-                            <router-link class="nav-link" to="/profile"><a><i><fa :icon="['fas', 'user']" /></i></a></router-link>
+                            <router-link class="nav-link" to="/account"><a><i><fa :icon="['fas', 'user']" /></i></a></router-link>
                           </li>
                     
                     </div>
