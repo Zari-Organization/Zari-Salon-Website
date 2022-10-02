@@ -84,23 +84,36 @@
         </div>
         <div class="modal-body">
 
+    
+                    
+        <section class="service-details">
             <div class="container">
                 <div class="row">
-                    <div class="col col-sm-7">
-                        <h2>Revitalise Your Mind, Body And Spirit.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
-                        <!-- <router-link  to="/booking" class="btn main-btn py-2 px-4 me-3" >Book Appointment</router-link> -->
-                    </div>                    
-                    <div class="col col-sm-5 modal-img ">
-                        <img class="shadow" src="../assets/services/pic4.jpg" alt="" />
-                        
+                    <div class="col-md-4" style="padding-right: 20px">
+                        <img src="../assets/services/pic1.jpg" class="img-responsive"/>
+                    </div>
+
+                    <div class="col-md-8">
+                        <h4 class="styled">Facial <strong>$60</strong><sup> (from)</sup><span> Pellentesque amet adipiscing scelerisque</span></h4>
+                        <p>
+                             Lorem ipsum dolor sit amet, pellentesque amet adipiscing scelerisque, vitae urna aenean, justo malesuada at eu, orci varius risus luctus enim a malesuada. Erat in tempor magna, eget porttitor posuere.
+                        </p>
+                        <ul class="additional_info">
+                            <li><a href="javascript:void(0);" class="tooltip-1" data-placement="top" title="" data-original-title="Shower available"><i><fa icon="fa-solid fa-hand-sparkles" /></i></a></li>
+                            <li><a href="javascript:void(0);" class="tooltip-1" data-placement="top" title="" data-original-title="Towels available"><i><fa :icon="['fas', 'hot-tub-person']" /></i></a></li>
+                            <li><a href="javascript:void(0);" class="tooltip-1" data-placement="top" title="" data-original-title="Slippers"><i><fa :icon="['fas', 'spa']" /></i></a></li>
+                            <li><a href="javascript:void(0);" class="tooltip-1" data-placement="top" title="" data-original-title="Slippers"><i><fa :icon="['fas', 'spray-can-sparkles']" /></i></a></li>
+                        </ul>
+                        <!-- <p>
+                            <router-link class="btn main-btn py-2 px-4 me-3" to="/booking">Book Appointment</router-link>
+                        </p> -->
                     </div>
                 </div>
-                
             </div>
+        </section>
+
+                </div>
            
-          ...
-        </div>
         <div class="modal-footer">
           <button type="button" class="btn second-btn py-2 px-4 me-3 " data-bs-dismiss="modal">Close</button>
           <!-- <router-link  to="/booking" class="btn main-btn py-2 px-4 me-3"  data-bs-dismiss="modal" >Book Appointment</router-link> -->
@@ -122,7 +135,7 @@
 
        
   <div class="col-12 text-center">
-    <router-link class="btn main-btn py-2 px-4 mt-5" to="/gallery">See All Services</router-link>
+    <router-link class="btn main-btn py-2 px-4 mt-5" to="/services">See All Services</router-link>
 </div>
         
 
@@ -152,7 +165,7 @@
     @import '../scss/style.scss';
     
     .modal-dialog {
-    max-width: 70% !important;
+    max-width: 90% !important;
     }
     .modal-body{
         text-align: left;

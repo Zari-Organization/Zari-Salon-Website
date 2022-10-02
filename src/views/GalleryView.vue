@@ -63,7 +63,7 @@
                     <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
                         <img src="../assets/gallery/pic1.jpg" />
                     </div>
-            
+        
             </div>
     
             </div>
@@ -71,6 +71,347 @@
 
 
         </section>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-block" id="tab-block">
+  
+                        <ul class="tab-mnu">
+                          <li class="active">All</li>
+                          <li>Team</li>
+                          <li>Privacy</li>
+                          <li>Advertise</li>
+                          <li>Contact</li>
+                        </ul>
+                        
+                        <div class="tab-cont">
+                         
+                          <div class="tab-pane">
+                            <section class="gallery">
+                                <div class="container">
+                                    <div class="row gx-4 gy-4">
+                                
+                                
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic1.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic1.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic1.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic1.jpg" />
+                                            </div>
+                                    
+                                    </div>
+                            
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic1.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic1.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic1.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic1.jpg" />
+                                        </div>
+                            
+                                </div>
+                        
+                                </div>
+                            </div>
+                    
+                    
+                            </section>
+                          
+                        </div>
+                          <div class="tab-pane">
+                            <section class="gallery">
+                                <div class="container">
+                                    <div class="row gx-4 gy-4">
+                                
+                                
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic2.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic2.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic2.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic2.jpg" />
+                                            </div>
+                                    
+                                    </div>
+                            
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic2.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic2.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic2.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic2.jpg" />
+                                        </div>
+                            
+                                </div>
+                        
+                                </div>
+                            </div>
+                    
+                    
+                            </section>
+                        </div>
+                          <div class="tab-pane">
+                            <section class="gallery">
+                                <div class="container">
+                                    <div class="row gx-4 gy-4">
+                                
+                                
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic3.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic3.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic3.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic3.jpg" />
+                                            </div>
+                                    
+                                    </div>
+                            
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic3.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic3.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic3.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic3.jpg" />
+                                        </div>
+                            
+                                </div>
+                        
+                                </div>
+                            </div>
+                    
+                    
+                            </section>
+                        </div>
+                          <div class="tab-pane">
+                            <section class="gallery">
+                                <div class="container">
+                                    <div class="row gx-4 gy-4">
+                                
+                                
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic4.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic4.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic4.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic4.jpg" />
+                                            </div>
+                                    
+                                    </div>
+                            
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic4.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic4.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic4.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic4.jpg" />
+                                        </div>
+                            
+                                </div>
+                        
+                                </div>
+                            </div>
+                    
+                    
+                            </section>
+                        </div>
+                        <div class="tab-pane">
+
+
+                            <section class="gallery">
+                                <div class="container">
+                                    <div class="row gx-4 gy-4">
+                                
+                                
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic2.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic2.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic2.jpg" />
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-sm-6 col-lg-3">
+                                            <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                                <img src="../assets/gallery/pic2.jpg" />
+                                            </div>
+                                    
+                                    </div>
+                            
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic2.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic2.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic2.jpg" />
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-sm-6 col-lg-3">
+                                        <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
+                                            <img src="../assets/gallery/pic2.jpg" />
+                                        </div>
+                            
+                                </div>
+                        
+                                </div>
+                            </div>
+                    
+                    
+                            </section>
+                        </div>
+                        </div>
+                      
+                      </div>
+            
+                </div>
+            </div>
+        </div>
+
+        
+
+
  
 
      
@@ -92,17 +433,124 @@ import FooterSection from '@/components/FooterSection.vue';
   
   export default {
     components:{
+
     WhyusSection,
     PricingSection,
     SubscribeSection,
     FooterSection,
 }
   }
+  import $ from "jquery";
+
+
+
+  $(document).ready(function(){
+  
+  var tabWrapper = $('#tab-block'),
+      tabMnu = tabWrapper.find('.tab-mnu  li'),
+      tabContent = tabWrapper.find('.tab-cont > .tab-pane');
+  
+  tabContent.not(':first-child').hide();
+  
+  tabMnu.each(function(i){
+    $(this).attr('data-tab','tab'+i);
+  });
+  tabContent.each(function(i){
+    $(this).attr('data-tab','tab'+i);
+  });
+  
+  tabMnu.click(function(){
+    var tabData = $(this).data('tab');
+    tabWrapper.find(tabContent).hide();
+    tabWrapper.find(tabContent).filter('[data-tab='+tabData+']').show(); 
+  });
+  
+  $('.tab-mnu > li').click(function(){
+    var before = $('.tab-mnu li.active');
+    before.removeClass('active');
+    $(this).addClass('active');
+   });
+  
+});
+
+
   </script>
 
 <style lang="scss" scoped>
     @import '../scss/_variables';
     @import '../scss/style.scss';
+
+
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+body{
+  background-color: $bgc;
+  height:100%;
+  font-family: $base-font;
+  font-size: 16px;
+  line-height:1.5;
+}
+
+.tab-block{
+  width:95%;
+  height:auto;
+  margin:50px auto;
+  .tab-mnu{
+    display:block;
+    list-style:none;
+    &:after{
+      content:'';
+      display:table;
+      clear:both;
+    }
+    li{
+        width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-right: 5%;
+
+    
+      box-sizing:border-box;
+      float:left;
+      background-color: $main-color;
+      color:$tabfontc;
+      text-align:center;
+      padding-top:13px;
+      padding-bottom:13px;
+      cursor:pointer;
+      &:not(:last-child){
+        border-right:1px solid $bgc;
+      }
+      &:hover:not(.active){
+        background-color: lighten($tabc,5%);
+      }
+    }
+    .active{
+        background-color: #fff;
+        color:$fontc;
+        border-bottom:1px solid lighten($fontc,55%);
+      cursor:default;
+      }
+  }
+  
+  .tab-cont{
+    box-sizing:border-box;
+    border-top:1px solid white;
+    background-color:$tabfontc;
+    color:darken($fontc,20%);
+    .tab-pane{
+      padding:20px 25px;
+    }
+  }
+    
+}
+
+
+
+
  
     .gallery{
         margin-bottom: 120px;

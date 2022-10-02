@@ -136,9 +136,7 @@ export default {
 <style lang="scss">
     @import '../scss/_variables.scss';
   @import '../scss/style.scss';
-.page-header{
-  margin-bottom: 0px !important;
-}
+
  * {
     box-sizing: border-box;
   }

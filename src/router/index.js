@@ -94,10 +94,10 @@ const routes = [
     component: () =>
       import("../views/CheckoutView.vue"),
   },
-  // {
-  //   path: '/:pathMatch(.*)*', component: () =>
-  //   import("../views/OopsView.vue"),
-  // },
+  {
+    path: '/:pathMatch(.*)*', component: () =>
+    import("../views/OopsView.vue"),
+  },
 
 ];
 

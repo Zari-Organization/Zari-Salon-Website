@@ -18,7 +18,7 @@
         
                                 <div class="col-sm-6 col-md-4 col-lg-4">
                                     <div class="branch pb-4">
-                                        <div class="branch-img"><!--branch-1-->
+                                        <div class="branch-img">
                                             <img src="../assets/branches/branch1.jpg" alt="second branch" />
                                         </div>
                                         <p class="branch-services">Hair . Nails . Facial </p>
@@ -32,7 +32,8 @@
         
                                 <div class="col-sm-6 col-md-4 col-lg-4">
                                     <div class="branch pb-4">
-                                        <div class="branch-img"><!--branch-1-->
+                                        <div class="branch-img"  >
+                                            <!--branch-1-->
                                             <img src="../assets/branches/branch2.jpg" alt="third branch" />
 
                                         </div>
@@ -47,7 +48,8 @@
         
                                 <div class="col-sm-6 col-md-4 col-lg-4">
                                     <div class="branch pb-4">
-                                        <div class="branch-img"><!--branch-1-->
+                                        <div class="branch-img">
+                                            <!--branch-1-->
                                             <img src="../assets/branches/branch.jpg" alt="first branch" />
 
                                         </div>
@@ -70,6 +72,10 @@
             </div>
         
         </section>
+
+
+
+
     </div>
 </template>
 
@@ -110,6 +116,11 @@
     align-items: center;
     margin: auto;
     overflow: hidden;
+}
+
+
+.branch-img::after{
+    content: "";
 }
 .branch-img img{
     width: 150%;

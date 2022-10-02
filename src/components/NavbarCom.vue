@@ -242,18 +242,18 @@ $('.navbar .navbar-toggler').click(()=>{
 // add class active to an active link and smooth move.....
 
 
-$( '.navbar-nav li' ).on( 'click', function () {
-	$( '.navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
-	$( this ).parent( 'li' ).addClass( 'active' );
-});
+// $( '.navbar-nav li' ).on( 'click', function () {
+// 	$( '.navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+// 	$( this ).parent( 'li' ).addClass( 'active' );
+// });
 
-$('.navbar-nav .nav-item').click(function(){
-    $(this).addClass('active');
-    $(this).parent().siblings().children().removeClass('active');
-    let currentSection = $(this).attr('to');
-    let currentOffset = $(currentSection).offset().top;
-    $('html , body').animate({scrollTop : currentOffset}, 500);
-})
+// $('.navbar-nav .nav-item').click(function(){
+//     $(this).addClass('active');
+//     $(this).parent().siblings().children().removeClass('active');
+//     let currentSection = $(this).attr('to');
+//     let currentOffset = $(currentSection).offset().top;
+//     $('html , body').animate({scrollTop : currentOffset}, 500);
+// })
 
 
 // change indicators buttons style

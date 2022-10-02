@@ -370,7 +370,7 @@ export default {
     
 }
 .slide1{
-    background-image: url("../assets/home/slide11.png");
+    background-image: url("../assets/home/slide111.png");
 }
 .slide2{    
   background-image: url("../assets/home/slide2.jpg");
