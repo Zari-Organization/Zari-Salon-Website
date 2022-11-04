@@ -307,4 +307,268 @@ $(document).ready(function(){
   @import '../scss/_variables.scss';
   @import '../scss/style.scss';
 
+  
+//============= right part =
+
+.checkout-order-details-wrap {
+    margin-left: 40px;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap {
+    border: 2px solid $main-color;
+    margin-bottom: 50px;
+    padding: 48px 50px 54px;
+    position: relative;
+    border-radius: 16px;
+}
+
+.shopping-checkout-wrap .title {
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.shopping-checkout-wrap .title:before {
+    background-color: #1b1c1e;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+.checkout-order-details-wrap .order-details-table-wrap .table td, .checkout-order-details-wrap .order-details-table-wrap .table th {
+    color: #1b1c1e;
+    font-weight: 400;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .table th {
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #e8e8e8;
+    padding: 8px 0;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .table .product-total {
+    text-align: right;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .table .cart-item {
+    line-height: 20px;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .table .cart-item:first-child td {
+    padding-top: 27px;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .table .product-quantity {
+    color: #1b1c1e;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .table .cart-item:first-child td {
+    padding-top: 27px;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .table .product-total {
+    text-align: right;
+}
+
+
+
+
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method {
+    margin-top: 34px;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 10px;
+}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card .card-header {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    display: inline-block;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card .card-header .title {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0;
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .table-foot td {
+    text-align: right;
+}
+.table>:not(caption)>*>* {
+    padding: 1rem 0rem;
+}
+
+th{
+    font-size: 18px !important;
+}
+td{
+    font-size: 15px !important;
+}
+
+.shop-payment-method{
+    margin-top:34px;
+}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card{
+    background-color:transparent;border-radius:0;border:none;margin-bottom:10px
+}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card .card-header{border:none;background-color:transparent;padding:0;display:inline-block
+}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card .card-header .title{
+    display:inline-block;font-weight:400;font-size:14px;margin-bottom:0;position:relative;padding-left:20px;padding-bottom:0;text-transform:uppercase
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card .card-header .title:before{
+    position:absolute;content:"";background-color:#fff;border:1px solid $main-color;
+    width:12px;height:12px;border-radius:50%;top:50%;transform:translateY(-50%);left:0;
+}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card .card-header .title:after{
+    position:absolute;content:"";
+    width:6px;
+    height:6px;
+    background-color:#0075ff;
+    border-radius:50%;
+    top:50%;
+    transform:translateY(-50%);
+    left:3px;
+    display:block;
+}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card .card-header .title[aria-expanded=false]:after{
+    display:none;
+
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card .card-header .title[aria-expanded=true]:before{
+    border-color: $main-color;
+}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card .card-header .title[aria-expanded=true]:after{
+    display:block;
+    background-color: $main-color;
+}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card .card-header:hover{
+    cursor:pointer;
+}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card .card-body{
+    padding:0;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .card .card-body p{
+    color:#747474;
+    font-size:13px;
+    line-height:24px;
+
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .p-text{
+    color:#747474;
+    font-size:14px;
+    margin-top:24px;
+    margin-bottom:18px;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .p-text a{
+    color: $main-color;
+    text-decoration:underline
+}.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .p-text a:hover{color:$main-color}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .agree-policy .required{
+    color:$main-color;
+}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .agree-policy .custom-checkbox{
+    position:relative;
+    padding-left:24px
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .agree-policy .custom-checkbox .custom-control-input:checked~.custom-control-label:before{
+    background-color:#fff;
+    border-radius:0;border-color:#1b1c1e;box-shadow:none;
+    width:15px;
+    height:15px;
+    border-width:2px;
+    transition:all .3s ease-out;
+    -webkit-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .agree-policy .custom-checkbox .custom-control-input:checked~.custom-control-label:after{
+    display:inline-block;
+    color:#1b1c1e;
+    content:"\f00c";
+    font-family:FontAwesome;
+    font-size:8px;
+    position:absolute;
+    text-align:center;
+    padding-left:0;
+    line-height:14px;
+    box-shadow:none;
+    left:4px;
+    top:7px;
+    transition:all .1s ease-out;
+    -webkit-transition:all .1s ease-out;
+    -moz-transition:all .1s ease-out;
+    -ms-transition:all .1s ease-out;
+    -o-transition:all .1s ease-out;
+}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .agree-policy .custom-checkbox .custom-control-label{
+    color:#1b1c1e;
+    font-size:14px;
+    margin-bottom:0;
+    padding-left:0;
+    padding-top:0;
+    cursor:pointer;
+}
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .agree-policy .custom-checkbox .custom-control-label:before{
+    content:"";
+    position:absolute;
+    background-color:#fff;
+    border-radius:0;
+    box-shadow:none;
+    border:2px solid #e4e4e4;
+    width:15px;
+    height:15px;
+    top:7px;
+    left:0;
+    transition:all .3s ease-out;
+    -webkit-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .btn-place-order{
+    display:block;
+    text-align:center;
+    border-radius:0;
+    padding:18px 20px 16px;
+    margin-top:32px;font-size:16px;
+    background-color: $main-color;
+    border-color: $main-color;
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:600;
+}
+
+.checkout-order-details-wrap .order-details-table-wrap .shop-payment-method .btn-place-order:hover{
+    background-color:#1b1c1e;
+    border-color:#1b1c1e;
+}
 </style>

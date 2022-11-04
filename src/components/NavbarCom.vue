@@ -7,6 +7,15 @@
         <div id="ready">
             <i><fa :icon="['fas', 'spinner']" class="fa-5x fa-spin"/></i>
         </div>
+
+
+        <div class="top">   
+            <i class="ri-arrow-up-line"></i>
+            <i><fa :icon="['fas', 'chevron-up']" /></i>
+
+        </div>
+
+
         
 <header class="sticky-header">
     <nav class="navbar navbar-expand-lg fixed-top bg-white p-0">
@@ -157,7 +166,37 @@ import $ from "jquery";
 
 $(document).ready(function(){
 
+	$(".top").click(function(){
+		$('html,body').animate({
+			scrollTop:0,
+		} , 1000);
+});
+$(this).scroll(function(){
+		if($(this).scrollTop()> 300){
+		$('.top').fadeIn();
+      //  $('.navbar').css({
+      //      position: 'fixed',
+      //      borderBottom: '1px solid rgb(92 127 255 / 11%)',
+      //      width: '102%',
+      //      paddingRight: '145px',
+      //      backgroundColor: 'black',
+      //      zIndex:'9999999',
+      //  });
+        
+	    }
+    
+     	else{
+		$('.top').fadeOut();
+      // $('.navbar').css({
+      //       position: 'relative',
+      //       border: 'none',
+      //       backgroundColor: '#000000a1',
 
+      //   });
+		}
+	});
+
+    
 //  // Offcanvas Nav Js
 //  var $offcanvasNav = $("#offcanvasNav a");
 //     $offcanvasNav.on("click", function () {
@@ -189,22 +228,7 @@ $(document).ready(function(){
         $('#topBtn').css('display' , 'none')
     });
 
-  
 
-$(window).scroll(function(){
-
-    let whyOffset = $('#why').offset().top;
-    let pricingOffset = $('#pricing').offset().top;
-
-    if($(window).scrollTop() > whyOffset && $(window).scrollTop() < pricingOffset)
-    {
-        $('#topBtn').fadeIn(500);
-    }
-    else
-    {
-        $('#topBtn').fadeOut(250);
-    }
-})
 
 // change toggle navbar style
 
@@ -379,7 +403,36 @@ $('#emailSubscribe').on('input' , function(){
     @import '../scss/_variables';
     @import '../scss/style.scss';
 
+
+
+
+    .top{
+        height: 50px;
+        width: 50px;
+        right: 20px;
+        bottom: 20px;
+        border-radius: 50%;
+        background-color: $main-color;
+        color: white;
+        position: fixed;
+        display: none;
+        align-items: center;
+        z-index: 99999;    
+        cursor: pointer;
+    }
+    .top i{
+        font-size: 24px;
+        position: absolute;
+        top: 8px;
+        left: 14px;
+    }
+
+    
+
+
+    
     .second-btn, .main-btn{
+
         border-radius: 50px;
     }
 //scroll to top=====================

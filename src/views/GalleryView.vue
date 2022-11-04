@@ -11,7 +11,7 @@
           
         </section>
 
-        <section class="gallery">
+        <!-- <section class="gallery">
             <div class="container">
                 <div class="row gx-4 gy-4">
             
@@ -70,7 +70,7 @@
         </div>
 
 
-        </section>
+        </section> -->
 
 
         <div class="container">
@@ -78,12 +78,63 @@
                 <div class="col-md-12">
                     <div class="tab-block" id="tab-block">
   
-                        <ul class="tab-mnu">
-                          <li class="active">All</li>
-                          <li>Team</li>
-                          <li>Privacy</li>
-                          <li>Advertise</li>
-                          <li>Contact</li>
+                        <ul class="tab-mnu row">
+                          <li class="active col-md-1  p-a5">All</li>
+
+                          <li  class="col-md-1 p-a5">
+                            <div>
+                                <div>
+                                    <div class="memberimage">
+                                    <div class="member-pic">
+                                        <img src="../assets/team/client3.jpg" alt="" />
+                                    </div>
+                                    </div>
+                                    <div class="member-detail"> 
+                                        <strong class="member-name">Evelyn Martinez</strong>   </div>
+                                </div>
+                            </div>
+
+                          </li>
+                          <li  class="col-md-1 p-a5"> 
+                            <div>
+                                <div>
+                                <div class="memberimage">
+                                <div class="member-pic">
+                                     <img src="../assets/team/client4.jpg" alt="" />
+                                </div>
+                                </div>
+                                <div class="member-detail"> 
+                                    <strong class="member-name">Evelyn Martinez</strong> </div>
+                            </div>
+                        </div>
+                      </li>
+                          <li class="col-md-1 p-a5"> 
+                            <div>
+                            <div>
+                                <div class="memberimage">
+                                <div class="member-pic">
+                                    <img src="../assets/team/client3.jpg" alt="" />
+                                </div>
+                                </div>
+                                <div class="member-detail"> 
+                                    <strong class="member-name">Evelyn Martinez</strong></div>
+                            </div>
+                        </div>
+                    </li>
+                          <li class="col-md-1 p-a5">
+                            <div>
+                                <div>
+                                    <div class="memberimage">
+                                    <div class="member-pic">
+                                        <img src="../assets/team/client4.jpg" alt="">
+                                    </div>
+                                    </div>
+                                    <div class="member-detail"> 
+                                        <strong class="member-name">Evelyn Martinez</strong>   </div>
+                                </div>
+                            </div>
+
+                          </li>
                         </ul>
                         
                         <div class="tab-cont">
@@ -92,7 +143,6 @@
                             <section class="gallery">
                                 <div class="container">
                                     <div class="row gx-4 gy-4">
-                                
                                 
                                         <div class="col-sm-6 col-lg-3">
                                             <div class="img-gallery px-4 d-flex justify-content-center align-items-center">
@@ -491,6 +541,11 @@ body{
   line-height:1.5;
 }
 
+
+.tab-block .tab-mnu{
+    display: flex;  
+    justify-content: center;
+}
 .tab-block{
   width:95%;
   height:auto;
@@ -504,14 +559,12 @@ body{
       clear:both;
     }
     li{
-        width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    display: flex;
+        width: 120px;
+       
     justify-content: center;
     align-items: center;
-margin-right: 5%;
-
+margin-right: 4%;
+font-size: 12px;
     
       box-sizing:border-box;
       float:left;
@@ -588,6 +641,46 @@ margin-right: 5%;
         }
     }
     
+
+    .member-name{
+                font-size:12px;
+        text-transform:uppercase;
+        font-family:Montserrat,sans-serif;
+        color:#1b1c1e
+    }
+    .member-position{
+        text-transform:capitalize;
+        font-family:Montserrat,sans-serif;
+        color:#888;
+        font-size: 10px;
+        font-style:inherit;
+        line-height: 26px;
+    }
+        
+    .memberimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .member-pic{
+        margin-bottom:15px;
+        overflow: hidden;
+        border-radius: 50%;
+        box-shadow: 4px 4px 8px rgb(255 0 129 / 13%);
+        width: auto;
+        height: auto;
+    }
+    .member-pic img{
+        width: 100%;
+        height: auto;
+        transition: 0.3s;
+    }
+    
+    .member-pic img:hover{
+        transform: scale(1.15,1.15);
+    
+    }
+
 
 
 </style>

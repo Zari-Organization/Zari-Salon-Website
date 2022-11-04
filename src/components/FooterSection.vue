@@ -1,9 +1,9 @@
 <template>
     <div>
         <footer id="footer" class="footer py-5 position-relative">
-            <a id="btnTopFooter" class="position-absolute top-0 end-0 translate-middle text-white">
+            <!-- <a id="btnTopFooter" class="position-absolute top-0 end-0 translate-middle text-white">
                 <i><fa :icon="['fas','chevron-up']" class="fs-3 p-2 main-bg rounded-circle" /></i>
-            </a>
+            </a> -->
 
             <div class="container">
                 <div class="row gy-5">
